@@ -1,3 +1,34 @@
+'''
+7. Simple Quiz System
+Context: A training platform needs to administer quizzes.
+
+Task: Create two classes:
+
+Question with attributes: text, options (list of strings), correct_answer (index).
+
+Quiz with attributes: questions (list of Question), score (int).
+
+Methods:
+
+add_question(question).
+
+take_quiz() – loops through each question, prints text and options, takes user input (simulate with a provided answer list), checks correctness, updates score.
+
+get_score() – returns score.
+
+Static method: load_from_dict(data) – creates a Quiz from a dictionary structure (optional).
+
+Sample Usage:
+
+q1 = Question("What is 2+2?", ["3", "4", "5"], 1)
+q2 = Question("What is the capital of France?", ["London", "Paris", "Berlin"], 1)
+quiz = Quiz()
+quiz.add_question(q1)
+quiz.add_question(q2)
+quiz.take_quiz(answers=[1, 1])  # simulate answers  -> a bteter way is ask input directly one by one
+print(quiz.get_score())  # 2
+'''
+
 class Question:
     def __init__(self,text,option,ans):
         self.text = text
@@ -47,11 +78,11 @@ quiz.take_quiz()
 quiz.get_score()
 
 
-# q1 = Question("What is 2+2?", ["3", "4", "5"], 1)
-# q2 = Question("What is the capital of France?", ["London", "Paris", "Berlin"], 1)
-# quiz = Quiz()
-# quiz.add_question(q1)
-# quiz.add_question(q2)
-# quiz.take_quiz()  # simulate answers
-# print(quiz.get_score())  # 2
+q1 = Question("What is 2+2?", ["3", "4", "5"], 1)
+q2 = Question("What is the capital of France?", ["London", "Paris", "Berlin"], 1)
+quiz = Quiz()
+quiz.add_question(q1)
+quiz.add_question(q2)
+quiz.take_quiz()  # simulate answers
+print(quiz.get_score())  # 2
 
