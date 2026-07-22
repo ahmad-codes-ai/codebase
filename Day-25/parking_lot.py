@@ -51,14 +51,20 @@ class Parkinglot:
         return "Spot added"
     
     def park_car(self,car):
+        found = False
         if len(self.spots) > 0:
             for i in self.spots:
                 if i.get_status():
-                    return "No spot left all occupied"
+                    pass
                 else:
                     i.change_status(True)
                     i.car = car
-                    return "Car parked successfuly"
+                    found = True
+                    break
+            if found:
+                return "Car parked successfuly"
+            else:
+                return "All spots occupied"
         else:
             return "No spot is in lot"
         
