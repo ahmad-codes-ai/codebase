@@ -1,3 +1,34 @@
+'''
+3. Employee Performance Review System
+Context: A company tracks employee performance through quarterly reviews. Each review has scores in multiple categories (e.g., "Technical", "Communication", "Teamwork"). Employees are eligible for promotion if their average score over the last 2 reviews exceeds a threshold (e.g., 4.0 out of 5). The system must also calculate departmental averages.
+Task: Create classes:
+Review: with attributes quarter (string), scores (dict mapping category -> float). Method: average_score().
+
+Employee: with private attributes __name, __reviews (list of Review). Public methods:
+
+add_review(review).
+get_average_score() – average of all reviews' average scores.
+last_two_average() – average of most recent 2 reviews.
+is_eligible(promotion_threshold) – returns True if last_two_average() >= threshold.
+Department: with private attribute __employees (list of Employee). Methods:
+
+add_employee(emp).
+department_average() – average of all employees' average scores.
+eligible_employees(threshold) – returns list of employees eligible.
+Static method: calculate_weighted_average(scores, weights) – optional for different category weights (but not required).
+
+Class variable: DEFAULT_PROMOTION_THRESHOLD = 4.0.
+
+Sample Usage:
+emp = Employee("Sara")
+emp.add_review(Review("Q1", {"Tech": 4.5, "Comm": 4.0}))
+emp.add_review(Review("Q2", {"Tech": 4.8, "Comm": 4.5}))
+print(emp.is_eligible())  # True if average >= 4.0
+dept = Department()
+dept.add_employee(emp)
+print(dept.department_average())
+'''
+
 class Review:
     def __init__(self,q,scores):
         self.q = q

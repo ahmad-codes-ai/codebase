@@ -67,7 +67,7 @@ class Department:
         l = len(self.employees)
         sum = 0
         for i in self.employees:
-            sum+=i.get_average_score()
+            sum+=i.get_average_score
         avg = sum/l
         return avg
     
