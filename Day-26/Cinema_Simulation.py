@@ -78,5 +78,32 @@ class Hall:
                 available.append((i.row,i.col))
         return available
 
+class ShowTime:
+    def __init__(self,title,hall,time):  # -> hall object 1
+        self.title = title
+        self.hall = hall
+        self.time = time
+        self.customers = {}
+
+    def book_seats(self,row_col_list, customer):  # -> ([(1,1), (1,2)], "Alice")
+        booked = []
+        for row,col in row_col_list:
+            seat = self.hall.get_seat(row,col)
+            if seat is None:
+                for i in booked:
+                    i.cancel()
+                return None
+        
+            else:
+                seat.book()
+                booked.append(seat)
+        self.customers[customer] = booked   # -> Seat Objects stored in a list as values
+        return booked  # -> These are seat objects
 
 
+    
+                
+# h = Hall('Hall 1',4,4)
+# show = ShowTime('Avengers',h,'20:8')
+# show.book_seats([(1,3),(2,4),(1,1),(4,3)],'Ahmad')
+# print(show.customers)
