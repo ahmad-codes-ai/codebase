@@ -87,23 +87,93 @@ class ShowTime:
 
     def book_seats(self,row_col_list, customer):  # -> ([(1,1), (1,2)], "Alice")
         booked = []
+        all_avail = []
+        available = self.hall.get_available_seats()
         for row,col in row_col_list:
-            seat = self.hall.get_seat(row,col)
-            if seat is None:
-                for i in booked:
-                    i.cancel()
-                return None
-        
+            s = (row,col)
+            if s in available:
+                all_avail.append(s)
             else:
-                seat.book()
-                booked.append(seat)
-        self.customers[customer] = booked   # -> Seat Objects stored in a list as values
-        return booked  # -> These are seat objects
+                return None
+       
+        for i,j in all_avail:
+            seat = self.hall.get_seat(i,j)
+            seat.book()
+            booked.append(seat)
+        if customer not in self.customers:
+            self.customers[customer] = booked
+        else:
+            for i in booked:
+                self.customers[customer].append(i)
+        return [(i.row,i.col) for i in booked]
+        
+        
+    def cancel_booking(self,row_col_list, customer):
+        if customer in self.customers:
+            cancel_seats = []
+            for row,col in row_col_list:
+                seat = self.hall.get_seat(row,col)
+                if seat is not None and seat in self.customers[customer]:
+                    seat.cancel()
+                    cancel_seats.append(seat)
+                else:
+                    return False
+            
+            updated_seats = []
+            for i in self.customers[customer]:
+                if i not in cancel_seats:
+                    updated_seats.append(i)
+            self.customers[customer] = updated_seats
+            return True
+        else:
+            return False
+            
 
 
-    
-                
-# h = Hall('Hall 1',4,4)
-# show = ShowTime('Avengers',h,'20:8')
-# show.book_seats([(1,3),(2,4),(1,1),(4,3)],'Ahmad')
-# print(show.customers)
+class Cinema:
+    def __init__(self,name):
+        self.name = name
+        self.halls = []
+        self.shows = []
+
+    def add_hall(self,hall):
+        if hall not in self.halls:
+            self.halls.append(hall)
+            return "Hall added"
+        else:
+            return "Hall already exist in cinema"
+
+    def add_show(self,show):
+        if show not in self.shows:
+            self.shows.append(show)
+            return "Show added"
+        else:
+            return "Show already exist"  
+
+    def search_shows_by_movie(self, movie_title):
+        occurance = []
+        for i in self.shows:
+            if i.title.lower().strip() == movie_title.lower().strip():
+                occurance.append((movie_title,i.time))
+        return occurance
+
+    @staticmethod
+    def validate_seat(row, col, hall):
+        if hall.get_seat(row,col) is not None:
+            return True
+        else:
+            return False
+
+
+cinema = Cinema("Test")
+hall = Hall("A", 3, 4)
+show = ShowTime("TestMovie", hall, "12:00")
+cinema.add_hall(hall); cinema.add_show(show)
+
+print(show.book_seats([(1,1),(1,2)], "Alice"))   # Expected: [(1,1),(1,2)]
+print(hall.get_available_seats())                # All except (1,1),(1,2)
+print(show.cancel_booking([(1,1)], "Alice"))    # Expected: True
+print(Cinema.validate_seat(2, 3, hall))          # Expected: True
+print(Cinema.validate_seat(5, 1, hall))          # Expected: False
+print(show.book_seats([(1,2)], "Bob"))           # Expected: [(1,1)] (now free) -> The test case sample is wrong (1,1) was never canceled so it should be None
+print(show.cancel_booking([(1,1),(1,2)], "Bob"))

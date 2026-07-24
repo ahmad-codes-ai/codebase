@@ -1,4 +1,4 @@
-l = [1]
+l = [(1,2),(3,4)]
+l2 = [(1,2),(3,4)]
 
-for i in l:
-    print("Hello")
+print(l == l2)
