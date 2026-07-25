@@ -1,3 +1,35 @@
+'''
+5. Restaurant Table Reservation System with Waitlist
+Context: A restaurant has tables of varying sizes (2-seater, 4-seater, etc.). Customers can make reservations for a specific date and time. If no table is available, they are placed on a waitlist. When a reservation is cancelled, the system automatically assigns the table to the first waitlisted party whose group size fits.
+Task: Create classes:
+Table: with attributes table_number, capacity (max guests), is_available (private boolean). Methods: reserve(), free().
+
+Reservation: with attributes customer_name, guest_count, datetime, table (reference to Table).
+
+Restaurant: with private attributes:
+
+__tables (list of Table)
+__reservations (list of Reservation)
+__waitlist (list of (customer_name, guest_count, datetime) – ordered) Methods:
+add_table(table).
+make_reservation(customer, guests, datetime) – find first available table with capacity >= guests; if found, create Reservation, mark table busy, add to reservations; else add to waitlist.
+cancel_reservation(customer, datetime) – find and remove the reservation, free the table, then process waitlist: assign first waiting group that fits a free table.
+get_waitlist() – return waitlist.
+Static method: find_available_table(tables, guests) – returns table or None.
+
+Class variable: MIN_TABLE_CAPACITY maybe not needed.
+
+Sample Usage:
+rest = Restaurant()
+rest.add_table(Table(1, 2))
+rest.add_table(Table(2, 4))
+rest.make_reservation("Alice", 2, "2026-07-15 19:00")  # Table 1 assigned
+rest.make_reservation("Bob", 4, "2026-07-15 19:00")    # Table 2 assigned
+rest.make_reservation("Charlie", 3, "2026-07-15 19:00") # no table, waitlist
+rest.cancel_reservation("Bob", "2026-07-15 19:00")      # frees Table 2, assigns to Charlie
+print(rest.get_waitlist())  # should be empty
+'''
+
 class Table:
     def __init__(self,no,cap):
         self.no = no
