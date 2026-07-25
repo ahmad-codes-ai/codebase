@@ -70,7 +70,7 @@ class Restaurant:
         if found:
             self.__reservations.remove(to_remove)
             for waiting in self.__waitlist:
-                if table.cap >= waiting[1]:
+                if table.cap >= waiting[1] and datetime.lower().strip() == waiting[-1].lower().strip():
                     r = Reservation(waiting[0],waiting[1],waiting[2],table=table)
                     table.reserve()
                     self.__reservations.append(r)
@@ -96,8 +96,11 @@ class Restaurant:
 rest = Restaurant()
 rest.add_table(Table(1, 2))
 rest.add_table(Table(2, 4))
-print(rest.make_reservation("Alice", 2, "2026-07-15 19:00"))  # Table 1 assigned
-print(rest.make_reservation("Bob", 4, "2026-07-15 19:00"))    # Table 2 assigned
-print(rest.make_reservation("Charlie", 3, "2026-07-15 19:00")) # no table, waitlist
-print(rest.cancel_reservation("Bob", "2026-07-15 19:00"))      # frees Table 2, assigns to Charlie
-print(rest.get_waitlist())  # should be empty
+print(rest.make_reservation("Alice", 2, "2026-07-15 19:00"))
+print(rest.make_reservation("Bob", 4, "2026-07-15 19:00"))
+print(rest.make_reservation("Charlie", 3, "2026-07-15 19:00"))
+print(rest.cancel_reservation("Bob", "2026-07-15 19:00"))
+print(rest.get_waitlist())
+print(rest.cancel_reservation("Zebra", "2026-07-15 19:00"))
+print(rest.make_reservation("Dave", 2, "2026-07-16 20:00"))
+print(rest.cancel_reservation("Alice", "2026-07-15 19:00"))
