@@ -56,6 +56,7 @@ class Theater:
         self.seats.append(seat)
 
   def book_seat(self,r,c):
+    result = False
     for i in self.seats:
       if i.row == r and i.col == c:
         result = i.book()
@@ -75,7 +76,7 @@ class Theater:
   def display_seats(self):
     for i in range(1,self.row+1):
       for j in range(1,self.col+1):
-        print([] if [i,j] not in self.booked_grid else ['x'],end=' ')
+        print('[ ]' if [i,j] not in self.booked_grid else '[X]',end=' ')
       print()
 
 
@@ -84,8 +85,6 @@ class Theater:
 
 theater = Theater(3, 4)  # 3 rows, 4 cols
 theater.book_seat(1, 1)   # book row 1, col 1
-print(theater.available_seats())  # 11
-theater.display_seats()   # shows grid
+print(theater.available_seats())  # 11 
 theater.book_seat(1,2)
-print(theater.available_seats())
-print(theater.booked_grid)
+theater.display_seats() # shows grid
