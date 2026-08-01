@@ -37,7 +37,6 @@ order.upgrade_ticket("A12", "VIP")  # pays extra 70
 print(order.total_cost())
 '''
 
-
 from abc import ABC, abstractmethod
 
 class Ticket(ABC):
@@ -111,25 +110,30 @@ class Order:
       self.discount = discount
 
 
-  def upgrade_ticket(self, seat_number, new_type):
-    new_type = new_type.lower().strip()
+  def upgrade_ticket(self,no,new_type):
+    idx = 0
     for i in self.__tickets:
-      if i.get_seat() == seat_number:
-        if new_type == 'vip':
-          np = self.vip
-          nt = VIPTicket(i.event_name,np,i.get_seat())
-          self.__tickets.remove(i)
-          self.__tickets.append(nt)
+      if i.get_seat().lower().strip() == no.lower().strip():
+        if new_type.lower().strip() == 'vip':
+          ns = VIPTicket(i.event_name,self.vip,i.get_seat())
+          self.__tickets[idx] = ns
           return True
-        elif new_type == 'backstage':
-          np = self.backstage
-          nt = BackstageTicket(i.event_name,np,i.get_seat())
-          self.__tickets.remove(i)
-          self.__tickets.append(nt)
+        elif new_type.lower().strip() == 'backstage':
+          ns = BackstageTicket(i.event_name,self.backstage,i.get_seat())
+          self.__tickets[idx] = ns
           return True
-        else:
-          return False
+      idx+=1
     return False
+
+  def __add__(self,other):
+    merged_name = f"{self.__customer} & {other.__customer}"
+    new_order = Order(merged_name)
+    new_order.__tickets = self.__tickets + other.__tickets
+    return new_order
+
+  def show_tickets(self):
+    for i in self.__tickets:
+      print(i)
 
 
 
@@ -140,5 +144,11 @@ order.add_ticket(VIPTicket("Concert", 120, "B5"), 1)
 order.apply_bulk_discount()
 order.upgrade_ticket("A12", "VIP")  # pays extra 70
 print(order.total_cost())
+order.show_tickets()
+
+
+
+
+
 
 
