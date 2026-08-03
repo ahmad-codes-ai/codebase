@@ -42,7 +42,7 @@ order.apply_tip(3)
 print(order.final_total(platform.calculate_delivery_fee(5)))  # 20 + 4.5 + 3 = 27.5
 '''
 
-class Resturant:
+class Restaurant:
   def __init__(self,name,menu={},rating=0):
     self.name = name
     self.menu = menu
@@ -52,7 +52,7 @@ class Resturant:
     self.menu[name] = price
 
   def update_rating(self,new_rating):
-    self.rating = new_rating 
+    self.rating = new_rating
 
 class Driver:
   def __init__(self,name,vehicle):
@@ -62,7 +62,7 @@ class Driver:
 
   def accept_order(self,order):
     if self.__current_order is None:
-      self.__currrent_order = order
+      self.__current_order = order
       return True
     return False
 
@@ -79,14 +79,14 @@ class Driver:
       return True
     return False
 
-  
+
 class Order:
-  def __init__(self,customer,resturant,items):
+  def __init__(self,customer,restaurant,items):
     self.__customer = customer
-    self.__resturant = resturant
-    self.__items = []
+    self.__restaurant = restaurant
+    self.__items = items
     self.__status = 'pending'
-    self.total_bill = 0
+    self.tip = 0
 
   def add_item(self,item,quan):
     t = (item,quan)
@@ -97,25 +97,72 @@ class Order:
 
   def total_before_tip(self):
     total = 0
-    for item,quan in self.__items:
-      if item in self.__resturant.menu:
-        price = self.__resturant.menu.get(item,'No item exist')
-        price_total = price * quan
-        total+=price_total
-    self.total_bill = total
+    for item, quan in self.__items:
+      price = self.__restaurant.menu.get(item, 0)  
+      total += price * quan
     return total
 
-  def aplly_tip(self,amount):
-    self.total_bill+=amount
+  def apply_tip(self,amount):
+    self.tip+=amount
 
   def assign_driver(self,driver):
     if driver.is_available():
       driver.accept_order(self)
+      self.__status = 'assigned'
       return True
     return False
 
   def final_total(self,fee):
-    self.total_bill += fee
-    return self.total_bill
+    return self.total_before_tip() + self.tip + fee
+
+class DeliveryPlatform:
+  def __init__(self):
+    self.restaurants = []
+    self.orders = []
+    self.drivers = []
+
+  def register_restaurant(self,rest):
+    if rest not in self.restaurants:
+      self.restaurants.append(rest)
+      return True 
+    return False
+
+  def register_driver(self,driver):
+    if driver not in self.drivers:
+      self.drivers.append(driver)
+      return True
+    return False
+
+  def place_order(self, customer, restaurant_name, items):
+    for rest in self.restaurants:
+      if rest.name == restaurant_name:
+        restaurant = rest
+        o = Order(customer,restaurant,items)
+        self.orders.append(o)
+        return o
+      return False
+
+  def assign_driver_to_order(self,order):
+    for driver in self.drivers:
+      if driver.is_available():
+        driver.accept_order(order)
+        return True
+    return False
+
+  @staticmethod
+  def calculate_delivery_fee(distance_km):
+    return 2+(0.5*distance_km)
 
   
+
+platform = DeliveryPlatform()
+rest = Restaurant("Pizza Hut", {"Margherita": 10, "Pepperoni": 12})
+platform.register_restaurant(rest)
+driver = Driver("Bob", "Scooter")
+platform.register_driver(driver)
+order = platform.place_order("Alice", "Pizza Hut", [("Margherita", 2)])
+platform.assign_driver_to_order(order)
+order.apply_tip(3)
+print(order.final_total(platform.calculate_delivery_fee(5)))  # 20 + 4.5 + 3 = 27.5
+
+
