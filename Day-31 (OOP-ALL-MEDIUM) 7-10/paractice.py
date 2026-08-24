@@ -1,56 +1,7 @@
-'''
-Medium Problem 9 – Financial Portfolio Manager
-Context An investment app tracks stocks, bonds, and crypto. Each asset has a current price and quantity. The portfolio computes total value, profit/loss, and diversification.
-
-Task Create the following classes:
-
-Asset (abstract)
-
-Attributes: symbol, quantity, purchase_price (private).
-Abstract method: get_current_price() – returns float.
-Method: current_value() – quantity * current_price.
-Method: profit_loss() – (current_price - purchase_price) * quantity.
-Stock (inherits Asset) – get_current_price() simulates (use a static price list).
-
-Bond – adds coupon_rate; get_current_price() uses face value + coupon.
-
-Crypto – adds market_cap.
-
-Portfolio
-
-Private: __assets (list).
-Methods: add_asset(asset), total_value(), total_profit_loss().
-get_allocation() – returns dict {type: percentage}.
-rebalance(target_allocations) – not required to actually trade, just suggests.
-MarketData (static class)
-
-Static dictionary prices = {"AAPL": 150, "BTC": 30000, ...}.
-Static method: get_price(symbol).
-Additional
-
-Override __add__ for Portfolio to merge two portfolios (sum assets).
-Use @abstractmethod.
-Sample Usage
-
-stock = Stock("AAPL", 10, 140)
-bond = Bond("US10Y", 5, 95, 0.03)
-portfolio = Portfolio()
-portfolio.add_asset(stock)
-portfolio.add_asset(bond)
-print(portfolio.total_value())  # 10*150 + 5*100 (approx) = 2000
-print(portfolio.get_allocation())
-'''
-
-
 from abc import ABC, abstractmethod
 
 class MarketData:
-   prices =  {
-    "AAPL": 150.0,
-    "GOOGL": 2800.0,   
-    "BTC": 30000.0,
-    "ETH": 2000.0
-}
+   prices = {"AAPL": 150, "BTC": 30000,}
    
    @staticmethod
    def get_price(symbol,prices=prices):
@@ -148,10 +99,12 @@ class Portfolio:
     new._Portfolio__assets = self._Portfolio__assets + others._Portfolio__assets
     return new 
   
-stock = Stock("AAPL", 10, 140)
-bond = Bond("US10Y", 5, 95, 0.03)
-portfolio = Portfolio()
-portfolio.add_asset(stock)
-portfolio.add_asset(bond)
-print(portfolio.total_value())  # 10*150 + 5*100 (approx) = 2000
-print(portfolio.get_allocation())
+# stock = Stock("AAPL", 10, 140)
+# bond = Bond("US10Y", 5, 95, 0.03)
+# portfolio = Portfolio()
+# portfolio.add_asset(stock)
+# portfolio.add_asset(bond)
+# print(portfolio.total_value())  # 10*150 + 5*100 (approx) = 2000
+# print(portfolio.get_allocation())
+
+
