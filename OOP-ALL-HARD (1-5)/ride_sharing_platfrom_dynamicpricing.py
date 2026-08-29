@@ -128,11 +128,11 @@ class Trip():
 
 
 
-    hour = self.__start_time[0]
+    hour = self.__start_time.split(':')[0]
     for k,v in Trip.time_factor.items():
       first,last = k[0],k[1]
       for i in range (int(first),int(last)+1):
-        if hour == i:
+        if int(hour) == i:
           self.time_factor = v 
 
     self.location = (self.__pickup,self.__drop_off)
