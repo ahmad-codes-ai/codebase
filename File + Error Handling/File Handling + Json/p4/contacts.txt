@@ -1,0 +1,5 @@
+Alice,123-456-7890
+Bob,987-654-3210
+Charlie,555-123-4567
+alice,C:\Users\Lenovo\AppData\Local\Python\pythoncore-3.14-64\python.exe "c:/Users/Lenovo/Desktop/file handling/p4/main.py"
+ahmad,0149461

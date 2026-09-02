@@ -1,0 +1,3 @@
+The quick brown fox jumps over the lazy dog.
+The dog was not lazy, the fox was quick.
+Quick movements are fun to watch.
