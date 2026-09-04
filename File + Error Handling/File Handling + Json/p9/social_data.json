@@ -1,0 +1,27 @@
+{
+  "data": {
+    "users": [
+      {
+        "name": "Alice",
+        "posts": [
+          {"title": "Hello World", "likes": 10},
+          {"title": "Python tips", "likes": 25}
+        ]
+      },
+      {
+        "name": "Bob",
+        "posts": [
+          {"title": "My day", "likes": 5},
+          {"title": "AI is cool", "likes": 30},
+          {"title": "Gaming", "likes": 15}
+        ]
+      },
+      {
+        "name": "Charlie",
+        "posts": [
+          {"title": "New bike", "likes": 40}
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+[
+  {"user_id": 1, "product": "Laptop", "amount": 1200},
+  {"user_id": 1, "product": "Mouse", "amount": 25},
+  {"user_id": 2, "product": "Keyboard", "amount": 75},
+  {"user_id": 3, "product": "Monitor", "amount": 300}
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "description": "Learn Python",
+    "status": "done"
+  },
+  {
+    "id": 2,
+    "description": "Learn JSON",
+    "status": "pending"
+  },
+  {
+    "id": 3,
+    "description": "Build an AI agent",
+    "status": "pending"
+  }
+]
