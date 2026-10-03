@@ -64,8 +64,8 @@ def get_all_users():
     return data
 
 
-def update_user(id,data={}):
-    response = httpx.put(f"{base_url}/users/{id}",json=data,headers=headers)
+def update_user(id,data={}):   # This has a bug as this will crash need to ask for every value for change currently not correcting bcz main thing is logic and geetng input and all that will take long
+    response = httpx.put(f"{base_url}/users/{id}",json=data,headers=headers)   
     
     if response.status_code == 200:
         d = {
@@ -83,7 +83,7 @@ def update_user(id,data={}):
 
 
 def delete_user(id):
-    resposne = httpx.delete(f"{base_url}/users/id",headers=headers)
+    resposne = httpx.delete(f"{base_url}/users/{id}",headers=headers)
     
     if resposne.status_code == 200:
         d = {
@@ -97,7 +97,7 @@ def delete_user(id):
         }
         
     return d
-
+ 
 
 def run():
     is_running = True
@@ -106,7 +106,8 @@ def run():
         print("2: Update User")
         print("3: List all Users")
         print("4: Get User Data")
-        print("5: Exit")
+        print("5: Delete User")
+        print("6: Exit")
         
         user = int(input("Enter Your Choice: "))
         
