@@ -1,0 +1,3404 @@
+[
+    {
+        "name": "gitignore",
+        "stargazer_count": 176048,
+        "language": null,
+        "description": "A collection of useful .gitignore templates"
+    },
+    {
+        "name": "spec-kit",
+        "stargazer_count": 142773,
+        "language": "Python",
+        "description": "\ud83d\udcab Toolkit to help you get started with SDD or any other process!"
+    },
+    {
+        "name": "awesome-copilot",
+        "stargazer_count": 40383,
+        "language": "JavaScript",
+        "description": "Community-contributed instructions, agents, skills, and configurations to help you make the most of GitHub Copilot."
+    },
+    {
+        "name": "github-mcp-server",
+        "stargazer_count": 33938,
+        "language": "Go",
+        "description": "GitHub's official MCP Server"
+    },
+    {
+        "name": "copilot-docs",
+        "stargazer_count": 23173,
+        "language": null,
+        "description": "Documentation for GitHub Copilot"
+    },
+    {
+        "name": "docs",
+        "stargazer_count": 21100,
+        "language": "TypeScript",
+        "description": "The open-source repo for docs.github.com"
+    },
+    {
+        "name": "opensource.guide",
+        "stargazer_count": 15757,
+        "language": "HTML",
+        "description": "\ud83d\udcda Community guides for open source creators"
+    },
+    {
+        "name": "gh-ost",
+        "stargazer_count": 13613,
+        "language": "Go",
+        "description": "GitHub's Online Schema-migration Tool for MySQL"
+    },
+    {
+        "name": "copilot.vim",
+        "stargazer_count": 11698,
+        "language": "Vim Script",
+        "description": "Neovim plugin for GitHub Copilot"
+    },
+    {
+        "name": "copilot-cli",
+        "stargazer_count": 11294,
+        "language": "Shell",
+        "description": "GitHub Copilot CLI brings the power of Copilot coding agent directly to your terminal. "
+    },
+    {
+        "name": "copilot-sdk",
+        "stargazer_count": 10573,
+        "language": "Java",
+        "description": "Multi-platform SDK for integrating GitHub Copilot Agent into apps and services"
+    },
+    {
+        "name": "codeql",
+        "stargazer_count": 10248,
+        "language": "CodeQL",
+        "description": "CodeQL: the libraries and queries that power security researchers around the world, as well as code scanning in GitHub Advanced Security"
+    },
+    {
+        "name": "semantic",
+        "stargazer_count": 9045,
+        "language": "Haskell",
+        "description": "Parsing, analyzing, and comparing source code across many languages"
+    },
+    {
+        "name": "roadmap",
+        "stargazer_count": 8942,
+        "language": null,
+        "description": "GitHub public roadmap"
+    },
+    {
+        "name": "scientist",
+        "stargazer_count": 7776,
+        "language": "Ruby",
+        "description": ":microscope: A Ruby library for carefully refactoring critical paths."
+    },
+    {
+        "name": "personal-website",
+        "stargazer_count": 7608,
+        "language": "HTML",
+        "description": "Code that'll help you kickstart a personal website that showcases your work as a software developer."
+    },
+    {
+        "name": "dmca",
+        "stargazer_count": 6421,
+        "language": "DIGITAL Command Language",
+        "description": "Repository with text of DMCA takedown notices as received. GitHub does not endorse or adopt any assertion contained in the following notices. Users identified in the notices are presumed innocent until proven guilty. Additional information about our DMCA policy can be found at "
+    },
+    {
+        "name": "CopilotForXcode",
+        "stargazer_count": 6352,
+        "language": "Swift",
+        "description": "AI coding assistant for Xcode"
+    },
+    {
+        "name": "markup",
+        "stargazer_count": 6051,
+        "language": "Ruby",
+        "description": "Determines which markup library to use to render a content file (e.g. README) on GitHub"
+    },
+    {
+        "name": "gh-aw",
+        "stargazer_count": 5463,
+        "language": "Go",
+        "description": "GitHub Agentic Workflows"
+    },
+    {
+        "name": "training-kit",
+        "stargazer_count": 5123,
+        "language": "HTML",
+        "description": "Open source courseware for Git and GitHub"
+    },
+    {
+        "name": "explore",
+        "stargazer_count": 4927,
+        "language": "Ruby",
+        "description": "Community-curated topic and collection pages on GitHub"
+    },
+    {
+        "name": "swift-style-guide",
+        "stargazer_count": 4752,
+        "language": null,
+        "description": "**Archived** Style guide & coding conventions for Swift projects"
+    },
+    {
+        "name": "gemoji",
+        "stargazer_count": 4533,
+        "language": "Ruby",
+        "description": "Emoji images and names."
+    },
+    {
+        "name": "choosealicense.com",
+        "stargazer_count": 4222,
+        "language": "HTML",
+        "description": "A site to provide non-judgmental guidance on choosing a license for your open source project"
+    },
+    {
+        "name": "mona-sans",
+        "stargazer_count": 4177,
+        "language": "Shell",
+        "description": "Mona Sans, a variable font from GitHub"
+    },
+    {
+        "name": "git-sizer",
+        "stargazer_count": 4088,
+        "language": "Go",
+        "description": "Compute various size metrics for a Git repository, flagging those that might cause problems"
+    },
+    {
+        "name": "relative-time-element",
+        "stargazer_count": 4042,
+        "language": "JavaScript",
+        "description": "Web component extensions to the standard <time> element."
+    },
+    {
+        "name": "hubot-scripts",
+        "stargazer_count": 3533,
+        "language": "CoffeeScript",
+        "description": "DEPRECATED, see https://github.com/github/hubot-scripts/issues/1113 for details - optional scripts for hubot, opt in via hubot-scripts.json"
+    },
+    {
+        "name": "hotkey",
+        "stargazer_count": 3299,
+        "language": "JavaScript",
+        "description": "Trigger an action on an element with a keyboard shortcut."
+    },
+    {
+        "name": "scripts-to-rule-them-all",
+        "stargazer_count": 3286,
+        "language": "Shell",
+        "description": "Set of boilerplate scripts describing the normalized script pattern that GitHub uses in its projects."
+    },
+    {
+        "name": "secure_headers",
+        "stargazer_count": 3229,
+        "language": "Ruby",
+        "description": "Manages application of security headers with many safe defaults"
+    },
+    {
+        "name": "gov-takedowns",
+        "stargazer_count": 3186,
+        "language": null,
+        "description": "Text of government takedown notices as received. GitHub does not endorse or adopt any assertion contained in the following notices."
+    },
+    {
+        "name": "archive-program",
+        "stargazer_count": 3122,
+        "language": null,
+        "description": "The GitHub Archive Program & Arctic Code Vault"
+    },
+    {
+        "name": "haikus-for-codespaces",
+        "stargazer_count": 2961,
+        "language": "EJS",
+        "description": null
+    },
+    {
+        "name": "github-elements",
+        "stargazer_count": 2904,
+        "language": "JavaScript",
+        "description": "GitHub's Web Component collection."
+    },
+    {
+        "name": "copilot-cli-for-beginners",
+        "stargazer_count": 2897,
+        "language": "Tape",
+        "description": "Learn how to get started using the GitHub Copilot CLI!"
+    },
+    {
+        "name": "janky",
+        "stargazer_count": 2743,
+        "language": "Ruby",
+        "description": "Continuous integration server built on top of Jenkins and Hubot"
+    },
+    {
+        "name": "advisory-database",
+        "stargazer_count": 2524,
+        "language": null,
+        "description": "Security vulnerability database inclusive of CVEs and GitHub originated security advisories from the world of open source software."
+    },
+    {
+        "name": "VisualStudio",
+        "stargazer_count": 2520,
+        "language": "C#",
+        "description": "GitHub Extension for Visual Studio"
+    },
+    {
+        "name": "glb-director",
+        "stargazer_count": 2457,
+        "language": "C",
+        "description": "GitHub Load Balancer Director and supporting tooling."
+    },
+    {
+        "name": "renaming",
+        "stargazer_count": 2456,
+        "language": null,
+        "description": "Guidance for changing the default branch name for GitHub repositories"
+    },
+    {
+        "name": "CodeSearchNet",
+        "stargazer_count": 2440,
+        "language": "Jupyter Notebook",
+        "description": "Datasets, tools, and benchmarks for representation learning of code."
+    },
+    {
+        "name": "SoftU2F",
+        "stargazer_count": 2248,
+        "language": "Swift",
+        "description": "Software U2F authenticator for macOS"
+    },
+    {
+        "name": "balanced-employee-ip-agreement",
+        "stargazer_count": 2246,
+        "language": null,
+        "description": "GitHub's employee intellectual property agreement, open sourced and reusable"
+    },
+    {
+        "name": "app",
+        "stargazer_count": 2241,
+        "language": null,
+        "description": "The GitHub Copilot app is an agent-native desktop experience for finding, running, steering, and landing software work across your GitHub repositories."
+    },
+    {
+        "name": "site-policy",
+        "stargazer_count": 2188,
+        "language": null,
+        "description": "Collaborative development on GitHub's site policies, procedures, and guidelines"
+    },
+    {
+        "name": "platform-samples",
+        "stargazer_count": 2183,
+        "language": "Shell",
+        "description": "A public place for all platform sample projects."
+    },
+    {
+        "name": "accessibilityjs",
+        "stargazer_count": 2166,
+        "language": "JavaScript",
+        "description": "Client side accessibility error scanner."
+    },
+    {
+        "name": "government.github.com",
+        "stargazer_count": 2020,
+        "language": "HTML",
+        "description": "Gather, curate, and feature stories of public servants and civic hackers using GitHub as part of their open government innovations"
+    },
+    {
+        "name": "hubot-sans",
+        "stargazer_count": 1963,
+        "language": "Shell",
+        "description": "Hubot Sans, a variable font from GitHub"
+    },
+    {
+        "name": "github-services",
+        "stargazer_count": 1889,
+        "language": "Ruby",
+        "description": "Legacy GitHub Services Integration"
+    },
+    {
+        "name": "pages-gem",
+        "stargazer_count": 1873,
+        "language": "Ruby",
+        "description": "A simple Ruby Gem to bootstrap dependencies for setting up and maintaining a local Jekyll environment in sync with GitHub Pages"
+    },
+    {
+        "name": "india",
+        "stargazer_count": 1825,
+        "language": "Ruby",
+        "description": "GitHub resources and information for the developer community in India"
+    },
+    {
+        "name": "gh-stack",
+        "stargazer_count": 1718,
+        "language": "Go",
+        "description": "GitHub Stacked PRs"
+    },
+    {
+        "name": "codeql-action",
+        "stargazer_count": 1663,
+        "language": "TypeScript",
+        "description": "Actions for running CodeQL analysis"
+    },
+    {
+        "name": "objective-c-style-guide",
+        "stargazer_count": 1662,
+        "language": null,
+        "description": "**Archived** Style guide & coding conventions for Objective-C projects"
+    },
+    {
+        "name": "rest-api-description",
+        "stargazer_count": 1645,
+        "language": null,
+        "description": "An OpenAPI description for GitHub's REST API"
+    },
+    {
+        "name": "securitylab",
+        "stargazer_count": 1635,
+        "language": "C",
+        "description": "Resources related to GitHub Security Lab"
+    },
+    {
+        "name": "covid19-dashboard",
+        "stargazer_count": 1623,
+        "language": "Jupyter Notebook",
+        "description": "A site that displays up to date COVID-19 stats, powered by fastpages."
+    },
+    {
+        "name": "lightcrawler",
+        "stargazer_count": 1569,
+        "language": "JavaScript",
+        "description": "Crawl a website and run it through Google lighthouse"
+    },
+    {
+        "name": "dev",
+        "stargazer_count": 1523,
+        "language": null,
+        "description": "Press the . key on any repo"
+    },
+    {
+        "name": "catalyst",
+        "stargazer_count": 1435,
+        "language": "TypeScript",
+        "description": "Catalyst is a set of patterns and techniques for developing components within a complex application."
+    },
+    {
+        "name": "gh-skyline",
+        "stargazer_count": 1367,
+        "language": "Go",
+        "description": "A GitHub CLI extension to generate a 3D model of your GitHub contribution history"
+    },
+    {
+        "name": "developer.github.com",
+        "stargazer_count": 1339,
+        "language": "Ruby",
+        "description": "GitHub Developer site"
+    },
+    {
+        "name": "backup-utils",
+        "stargazer_count": 1274,
+        "language": null,
+        "description": "GitHub Enterprise Backup Utilities"
+    },
+    {
+        "name": ".github",
+        "stargazer_count": 1235,
+        "language": null,
+        "description": "Community health files for the @GitHub organization"
+    },
+    {
+        "name": "gh-actions-importer",
+        "stargazer_count": 1235,
+        "language": "C#",
+        "description": "GitHub Actions Importer helps you plan and automate the migration of Azure DevOps, Bamboo, Bitbucket, CircleCI, GitLab, Jenkins, and Travis CI pipelines to GitHub Actions."
+    },
+    {
+        "name": "opensourcefriday",
+        "stargazer_count": 1234,
+        "language": "HTML",
+        "description": "\ud83d\udeb2 Contribute to the open source community every Friday"
+    },
+    {
+        "name": "brubeck",
+        "stargazer_count": 1175,
+        "language": "C",
+        "description": "A Statsd-compatible metrics aggregator"
+    },
+    {
+        "name": "gh-copilot",
+        "stargazer_count": 1153,
+        "language": null,
+        "description": "Ask for assistance right in your terminal."
+    },
+    {
+        "name": "cmark-gfm",
+        "stargazer_count": 1141,
+        "language": "C",
+        "description": "GitHub's fork of cmark, a CommonMark parsing and rendering library and program in C"
+    },
+    {
+        "name": "Rebel",
+        "stargazer_count": 1118,
+        "language": "Objective-C",
+        "description": "Cocoa framework for improving AppKit"
+    },
+    {
+        "name": "codeql-cli-binaries",
+        "stargazer_count": 1021,
+        "language": null,
+        "description": "Binaries for the CodeQL CLI"
+    },
+    {
+        "name": "GreenSoftwareDirectory",
+        "stargazer_count": 939,
+        "language": null,
+        "description": "Welcome to GitHub's Green Software Directory!"
+    },
+    {
+        "name": "codespaces-jupyter",
+        "stargazer_count": 913,
+        "language": "Jupyter Notebook",
+        "description": "Explore machine learning and data science with Codespaces"
+    },
+    {
+        "name": "stack-graphs",
+        "stargazer_count": 875,
+        "language": "Rust",
+        "description": "Rust implementation of stack graphs"
+    },
+    {
+        "name": "webauthn-json",
+        "stargazer_count": 787,
+        "language": "TypeScript",
+        "description": "\ud83d\udd0f A small WebAuthn API wrapper that translates to/from pure JSON using base64url."
+    },
+    {
+        "name": "brasil",
+        "stargazer_count": 780,
+        "language": "Ruby",
+        "description": "Recursos e informa\u00e7\u00f5es do GitHub para a comunidade tech do Brasil."
+    },
+    {
+        "name": "details-dialog-element",
+        "stargazer_count": 765,
+        "language": "JavaScript",
+        "description": "A modal dialog that's opened with <details>."
+    },
+    {
+        "name": "github-ospo",
+        "stargazer_count": 756,
+        "language": null,
+        "description": "Helping open source program offices get started"
+    },
+    {
+        "name": "swordfish",
+        "stargazer_count": 733,
+        "language": "Ruby",
+        "description": "EXPERIMENTAL password management app. Don't use this."
+    },
+    {
+        "name": "freno",
+        "stargazer_count": 733,
+        "language": "Go",
+        "description": "freno: cooperative, highly available throttler service"
+    },
+    {
+        "name": "email_reply_parser",
+        "stargazer_count": 710,
+        "language": "Ruby",
+        "description": "Small library to parse plain text email content"
+    },
+    {
+        "name": "github-ds",
+        "stargazer_count": 700,
+        "language": "Ruby",
+        "description": "A collection of Ruby libraries for working with SQL on top of ActiveRecord's connection"
+    },
+    {
+        "name": "rubocop-github",
+        "stargazer_count": 669,
+        "language": "Ruby",
+        "description": "Code style checking for GitHub's Ruby projects"
+    },
+    {
+        "name": "vulcanizer",
+        "stargazer_count": 668,
+        "language": "Go",
+        "description": "GitHub's ops focused Elasticsearch library"
+    },
+    {
+        "name": "vscode-github-actions",
+        "stargazer_count": 662,
+        "language": "TypeScript",
+        "description": "GitHub Actions extension for VS Code"
+    },
+    {
+        "name": "smimesign",
+        "stargazer_count": 661,
+        "language": "Go",
+        "description": "An S/MIME signing utility for use with Git"
+    },
+    {
+        "name": "details-menu-element",
+        "stargazer_count": 610,
+        "language": "JavaScript",
+        "description": "A menu opened with <details>."
+    },
+    {
+        "name": "vscode-codeql-starter",
+        "stargazer_count": 597,
+        "language": "CodeQL",
+        "description": "Starter workspace to use with the CodeQL extension for Visual Studio Code."
+    },
+    {
+        "name": "maven-plugins",
+        "stargazer_count": 591,
+        "language": "Java",
+        "description": "Official GitHub Maven Plugins"
+    },
+    {
+        "name": "dat-science",
+        "stargazer_count": 582,
+        "language": "Ruby",
+        "description": "Replaced by https://github.com/github/scientist"
+    },
+    {
+        "name": "branch-deploy",
+        "stargazer_count": 582,
+        "language": "TypeScript",
+        "description": "Enabling Branch Deployments through IssueOps with GitHub Actions - If you find this project useful, give it a star! \u2b50\ufe0f "
+    },
+    {
+        "name": "innovationgraph",
+        "stargazer_count": 575,
+        "language": "Python",
+        "description": "GitHub Innovation Graph"
+    },
+    {
+        "name": "codespaces-react",
+        "stargazer_count": 570,
+        "language": "JavaScript",
+        "description": null
+    },
+    {
+        "name": "include-fragment-element",
+        "stargazer_count": 569,
+        "language": "JavaScript",
+        "description": "A client-side includes tag."
+    },
+    {
+        "name": "vscode-codeql",
+        "stargazer_count": 546,
+        "language": "TypeScript",
+        "description": "An extension for Visual Studio Code that adds rich language support for CodeQL"
+    },
+    {
+        "name": "codespaces-blank",
+        "stargazer_count": 544,
+        "language": null,
+        "description": null
+    },
+    {
+        "name": "open-source-survey",
+        "stargazer_count": 535,
+        "language": null,
+        "description": "The Open Source Survey"
+    },
+    {
+        "name": "covid-19-repo-data",
+        "stargazer_count": 535,
+        "language": null,
+        "description": "Data archive of identifiable COVID-19 related public projects on GitHub "
+    },
+    {
+        "name": "how-engineering-communicates",
+        "stargazer_count": 533,
+        "language": null,
+        "description": "A community version of the \"common API\" for how the GitHub Engineering organization communicates"
+    },
+    {
+        "name": "ruleset-recipes",
+        "stargazer_count": 516,
+        "language": null,
+        "description": "Quickstart your use of Repository Rules with prebuilt rulesets ready to import. "
+    },
+    {
+        "name": "gh-valet",
+        "stargazer_count": 507,
+        "language": "C#",
+        "description": "Valet helps facilitate the migration of Azure DevOps, CircleCI, GitLab CI, Jenkins, and Travis CI pipelines to GitHub Actions."
+    },
+    {
+        "name": "clipboard-copy-element",
+        "stargazer_count": 495,
+        "language": "JavaScript",
+        "description": "Copy element text content or input values to the clipboard."
+    },
+    {
+        "name": "gh-gei",
+        "stargazer_count": 482,
+        "language": "C#",
+        "description": "Migration CLI for GitHub to GitHub migrations"
+    },
+    {
+        "name": "codeql-go",
+        "stargazer_count": 471,
+        "language": null,
+        "description": "The CodeQL extractor and libraries for Go."
+    },
+    {
+        "name": "Archimedes",
+        "stargazer_count": 466,
+        "language": "Objective-C",
+        "description": "Geometry functions for Cocoa and Cocoa Touch"
+    },
+    {
+        "name": "local-action",
+        "stargazer_count": 457,
+        "language": "TypeScript",
+        "description": "A simple utility for running and debugging a GitHub Action locally"
+    },
+    {
+        "name": "entitlements-app",
+        "stargazer_count": 447,
+        "language": "Ruby",
+        "description": "The Ruby Gem that Powers Entitlements - GitHub's Identity and Access Management System"
+    },
+    {
+        "name": "synsanity",
+        "stargazer_count": 432,
+        "language": "C",
+        "description": "netfilter (iptables) target for high performance lockless SYN cookies for SYN flood mitigation"
+    },
+    {
+        "name": "storybook-addon-performance-panel",
+        "stargazer_count": 425,
+        "language": "TypeScript",
+        "description": "A Storybook Addon for tracking web performance"
+    },
+    {
+        "name": "MVG",
+        "stargazer_count": 420,
+        "language": null,
+        "description": "MVG = Minimum Viable Governance"
+    },
+    {
+        "name": "markdown-toolbar-element",
+        "stargazer_count": 414,
+        "language": "JavaScript",
+        "description": "Markdown formatting buttons for text inputs."
+    },
+    {
+        "name": "auto-complete-element",
+        "stargazer_count": 409,
+        "language": "JavaScript",
+        "description": "Auto-complete input values from server search results."
+    },
+    {
+        "name": "twui",
+        "stargazer_count": 400,
+        "language": "Objective-C",
+        "description": "A framework for developing interfaces on the Mac."
+    },
+    {
+        "name": "accessibility-scanner",
+        "stargazer_count": 387,
+        "language": "TypeScript",
+        "description": "Finds potential accessibility gaps, files GitHub issues to track them, and attempts to fix them with Copilot."
+    },
+    {
+        "name": "tab-container-element",
+        "stargazer_count": 382,
+        "language": "JavaScript",
+        "description": "An accessible tab container element with keyboard support."
+    },
+    {
+        "name": "roskomnadzor",
+        "stargazer_count": 379,
+        "language": null,
+        "description": "deprecated archive \u2014 moved to https://github.com/github/gov-takedowns/tree/master/Russia"
+    },
+    {
+        "name": "copilot-plugins",
+        "stargazer_count": 376,
+        "language": "PowerShell",
+        "description": "The official GitHub Copilot plugins collection \u2014 MCP servers, skills, hooks, and other extensibility tools for GitHub Copilot."
+    },
+    {
+        "name": "hackathons",
+        "stargazer_count": 362,
+        "language": "HTML",
+        "description": "Deprecated. See https://github.com/github/devrel/issues/2874#issuecomment-3483164290. Tips, Tricks, and Resources for running your hackathon."
+    },
+    {
+        "name": "pycon2011",
+        "stargazer_count": 361,
+        "language": "Python",
+        "description": null
+    },
+    {
+        "name": "gh-net",
+        "stargazer_count": 351,
+        "language": null,
+        "description": "A network bridge between a Codespace and a local machine."
+    },
+    {
+        "name": "GitHub-Copilot-Dev-Days",
+        "stargazer_count": 350,
+        "language": null,
+        "description": "Repo for GitHub Copilot Dev Days content, global in-person series of events focused on GitHub Copilot."
+    },
+    {
+        "name": "hoosegow",
+        "stargazer_count": 348,
+        "language": "Ruby",
+        "description": "Ephemeral Docker jails for running untrusted Ruby code"
+    },
+    {
+        "name": "task_list",
+        "stargazer_count": 347,
+        "language": "CoffeeScript",
+        "description": "GitHub flavor Markdown Task List feature components"
+    },
+    {
+        "name": "putty",
+        "stargazer_count": 342,
+        "language": "C",
+        "description": "mirror of git://git.tartarus.org/simon/putty.git, used for client testing"
+    },
+    {
+        "name": "mentorships",
+        "stargazer_count": 337,
+        "language": null,
+        "description": "GitHub Open Source Mentorships (deprecated)"
+    },
+    {
+        "name": "eslint-plugin-github",
+        "stargazer_count": 335,
+        "language": "JavaScript",
+        "description": "An opinionated collection of ESLint rules used by GitHub."
+    },
+    {
+        "name": "annotation-toolkit",
+        "stargazer_count": 326,
+        "language": null,
+        "description": " The GitHub Annotation Toolkit is a Figma asset library packed with components to help you organize your design canvas, diagram UI anatomy, and annotate accessibility details for web and mobile experiences. "
+    },
+    {
+        "name": "ccql",
+        "stargazer_count": 322,
+        "language": "Go",
+        "description": "**No longer maintained, archived Feb 2023** Multi server MySQL client"
+    },
+    {
+        "name": "teach.github.com",
+        "stargazer_count": 320,
+        "language": "CSS",
+        "description": "The open source teaching materials site for Git and GitHub technologies"
+    },
+    {
+        "name": "release-radar",
+        "stargazer_count": 312,
+        "language": null,
+        "description": "Repo for submission of projects to consider for the GitHub Release Radar \ud83d\udce1"
+    },
+    {
+        "name": "media",
+        "stargazer_count": 296,
+        "language": null,
+        "description": "Media files for use in your GitHub integration projects"
+    },
+    {
+        "name": "copilot-language-server-release",
+        "stargazer_count": 292,
+        "language": null,
+        "description": "Feedback for the GitHub Copilot Language Server"
+    },
+    {
+        "name": "github-artifact-exporter",
+        "stargazer_count": 282,
+        "language": "TypeScript",
+        "description": "A set of packages to make exporting artifacts from GitHub easier"
+    },
+    {
+        "name": "github-graphql-rails-example",
+        "stargazer_count": 275,
+        "language": "Ruby",
+        "description": "Example Rails app using GitHub's GraphQL API"
+    },
+    {
+        "name": "game-off-2012",
+        "stargazer_count": 256,
+        "language": null,
+        "description": "The GitHub Game Off 2012 is a game jam / hackathon / coding challenge to create an open source a web-based game"
+    },
+    {
+        "name": "forgoodfirstissue",
+        "stargazer_count": 254,
+        "language": "TypeScript",
+        "description": "Find your first issue for good to contribute to"
+    },
+    {
+        "name": "octocatalog-diff",
+        "stargazer_count": 253,
+        "language": "Ruby",
+        "description": "Compile Puppet catalogs from 2 branches, versions, etc., and compare them"
+    },
+    {
+        "name": "dotnet-codespaces",
+        "stargazer_count": 253,
+        "language": "HTML",
+        "description": null
+    },
+    {
+        "name": "gh-actions-lock",
+        "stargazer_count": 249,
+        "language": "Go",
+        "description": "A gh CLI extension that generates and verifies the GitHub Actions dependency lockfile, pinning every action your workflows use to an exact commit."
+    },
+    {
+        "name": "game-off-2016",
+        "stargazer_count": 248,
+        "language": null,
+        "description": "GitHub's month-long game jam :video_game: November 2016"
+    },
+    {
+        "name": "issue-labeler",
+        "stargazer_count": 244,
+        "language": "TypeScript",
+        "description": "An action for automatically labelling issues"
+    },
+    {
+        "name": "maintainermonth",
+        "stargazer_count": 243,
+        "language": "JavaScript",
+        "description": "A month for maintainers to gather & share"
+    },
+    {
+        "name": "resque",
+        "stargazer_count": 242,
+        "language": "Ruby",
+        "description": "Used by Enterprise! Resque is a Redis-backed Ruby library for controlling background jobs."
+    },
+    {
+        "name": "multibinder",
+        "stargazer_count": 242,
+        "language": "Shell",
+        "description": "multibinder is a tiny ruby server that makes writing zero-downtime-reload services simpler."
+    },
+    {
+        "name": "actions-cheat-sheet",
+        "stargazer_count": 233,
+        "language": "HTML",
+        "description": "A cheat sheet for GitHub Actions"
+    },
+    {
+        "name": "paste-markdown",
+        "stargazer_count": 232,
+        "language": "JavaScript",
+        "description": "Paste spreadsheet cells as a Markdown table."
+    },
+    {
+        "name": "codeql-coding-standards",
+        "stargazer_count": 230,
+        "language": "CodeQL",
+        "description": "This repository contains CodeQL queries and libraries which support various Coding Standards."
+    },
+    {
+        "name": "mini-throttle",
+        "stargazer_count": 229,
+        "language": "TypeScript",
+        "description": "A small JavaScript throttle & debounce implementation."
+    },
+    {
+        "name": "albino",
+        "stargazer_count": 228,
+        "language": "Ruby",
+        "description": "Ruby wrapper for the Pygments syntax highlighter."
+    },
+    {
+        "name": "text-expander-element",
+        "stargazer_count": 228,
+        "language": "JavaScript",
+        "description": "Activates a suggestion menu to expand text snippets as you type."
+    },
+    {
+        "name": "ai-moderator",
+        "stargazer_count": 210,
+        "language": "TypeScript",
+        "description": "An AI-powered GitHub Action that detects and tags spam in your repository"
+    },
+    {
+        "name": "gh-models",
+        "stargazer_count": 208,
+        "language": "Go",
+        "description": "CLI extension for the GitHub Models service"
+    },
+    {
+        "name": "github-app-js-sample",
+        "stargazer_count": 207,
+        "language": "JavaScript",
+        "description": "Sample of a GitHub App that comments new pull requests"
+    },
+    {
+        "name": "jtml",
+        "stargazer_count": 203,
+        "language": "TypeScript",
+        "description": "Write HTML in JavaScript, using template-tags."
+    },
+    {
+        "name": "ruby",
+        "stargazer_count": 200,
+        "language": "Ruby",
+        "description": "development fork of ruby/ruby"
+    },
+    {
+        "name": "image-crop-element",
+        "stargazer_count": 199,
+        "language": "TypeScript",
+        "description": "A custom element for cropping a square image. Returns x, y, width, and height."
+    },
+    {
+        "name": "elastomer-client",
+        "stargazer_count": 198,
+        "language": "Ruby",
+        "description": "A library for interacting with Elasticsearch"
+    },
+    {
+        "name": "codespaces-actions-playground",
+        "stargazer_count": 194,
+        "language": "HTML",
+        "description": null
+    },
+    {
+        "name": "auto-check-element",
+        "stargazer_count": 189,
+        "language": "JavaScript",
+        "description": "An input element that validates its value with a server endpoint."
+    },
+    {
+        "name": "GitPad",
+        "stargazer_count": 186,
+        "language": "C#",
+        "description": "Notepad.exe as Git commit editor"
+    },
+    {
+        "name": "gh-aw-mcpg",
+        "stargazer_count": 182,
+        "language": "Go",
+        "description": "GitHub Agentic Workflows MCP Gateway"
+    },
+    {
+        "name": "custom-element-boilerplate",
+        "stargazer_count": 178,
+        "language": "TypeScript",
+        "description": "Boilerplate for creating a custom element."
+    },
+    {
+        "name": "session-resume",
+        "stargazer_count": 168,
+        "language": "JavaScript",
+        "description": "Annotate fields to be persisted on navigation away from the current page"
+    },
+    {
+        "name": "command",
+        "stargazer_count": 168,
+        "language": "JavaScript",
+        "description": "IssueOps commands in GitHub Actions"
+    },
+    {
+        "name": "deli",
+        "stargazer_count": 167,
+        "language": "Haskell",
+        "description": null
+    },
+    {
+        "name": "template-parts",
+        "stargazer_count": 166,
+        "language": "TypeScript",
+        "description": "An implementation of the Template Parts proposal"
+    },
+    {
+        "name": "gollum",
+        "stargazer_count": 164,
+        "language": "Ruby",
+        "description": "Unsupported \u2014\u00a0use https://github.com/gollum/gollum!"
+    },
+    {
+        "name": "browser-support",
+        "stargazer_count": 164,
+        "language": "JavaScript",
+        "description": "Polyfills & Capable Browser detection"
+    },
+    {
+        "name": "github-ldap",
+        "stargazer_count": 158,
+        "language": "Ruby",
+        "description": "LDAP client for humans. Part of GitHub Enterprise."
+    },
+    {
+        "name": "super-linter",
+        "stargazer_count": 158,
+        "language": "Shell",
+        "description": "Combination of multiple linters to install as a GitHub Action"
+    },
+    {
+        "name": "pages-health-check",
+        "stargazer_count": 157,
+        "language": "Ruby",
+        "description": "Checks your GitHub Pages site for common DNS configuration issues"
+    },
+    {
+        "name": "gh-aw-firewall",
+        "stargazer_count": 156,
+        "language": "TypeScript",
+        "description": "GitHub Agentic Workflows Firewall"
+    },
+    {
+        "name": "codespaces-nextjs",
+        "stargazer_count": 155,
+        "language": "JavaScript",
+        "description": null
+    },
+    {
+        "name": "combine-prs",
+        "stargazer_count": 155,
+        "language": "JavaScript",
+        "description": "GitHub Action to combine multiple PRs into a single one"
+    },
+    {
+        "name": "task-lists-element",
+        "stargazer_count": 153,
+        "language": "TypeScript",
+        "description": "Drag and drop task list items."
+    },
+    {
+        "name": "codespaces-rails",
+        "stargazer_count": 150,
+        "language": "Ruby",
+        "description": null
+    },
+    {
+        "name": "training-utils",
+        "stargazer_count": 146,
+        "language": "Ruby",
+        "description": "A series of Bash and ZShell scripts useful when teaching about git and GitHub"
+    },
+    {
+        "name": "g-emoji-element",
+        "stargazer_count": 145,
+        "language": "JavaScript",
+        "description": "Backports native emoji characters to browsers that don't support them by replacing the characters with fallback images."
+    },
+    {
+        "name": "stable-socket",
+        "stargazer_count": 143,
+        "language": "TypeScript",
+        "description": "A web socket that reconnects."
+    },
+    {
+        "name": "dependabot-action",
+        "stargazer_count": 143,
+        "language": "TypeScript",
+        "description": "Runs Dependabot Updates via GitHub Actions."
+    },
+    {
+        "name": "combobox-nav",
+        "stargazer_count": 141,
+        "language": "JavaScript",
+        "description": "Attach combobox navigation behavior to <input> or <textarea>."
+    },
+    {
+        "name": "dev-days",
+        "stargazer_count": 138,
+        "language": "HTML",
+        "description": null
+    },
+    {
+        "name": "learn.github.com",
+        "stargazer_count": 136,
+        "language": "CSS",
+        "description": "The discovery gate for all things educational for Git and GitHub."
+    },
+    {
+        "name": "file-attachment-element",
+        "stargazer_count": 135,
+        "language": "JavaScript",
+        "description": "Attach files via drag and drop or file input."
+    },
+    {
+        "name": "rust-gems",
+        "stargazer_count": 135,
+        "language": "Rust",
+        "description": "A collection of rust algorithms and data structures"
+    },
+    {
+        "name": "codespaces-django",
+        "stargazer_count": 133,
+        "language": "Python",
+        "description": null
+    },
+    {
+        "name": "dat-analysis",
+        "stargazer_count": 132,
+        "language": "Ruby",
+        "description": "Analyze results from dat-science."
+    },
+    {
+        "name": "rally",
+        "stargazer_count": 131,
+        "language": "JavaScript",
+        "description": "GitHub <> Rally integration"
+    },
+    {
+        "name": "version_sorter",
+        "stargazer_count": 130,
+        "language": "C",
+        "description": "Fast sorting of version numbers"
+    },
+    {
+        "name": "actions-learning-pathway",
+        "stargazer_count": 130,
+        "language": "CSS",
+        "description": "Learning pathway resources for building, testing, and deploying a GitHub Action to GitHub Pages."
+    },
+    {
+        "name": "typing-effect-element",
+        "stargazer_count": 128,
+        "language": "JavaScript",
+        "description": "A custom element that shows text as if it were being typed"
+    },
+    {
+        "name": "statsd-ruby",
+        "stargazer_count": 126,
+        "language": "Ruby",
+        "description": "A Ruby Statsd client."
+    },
+    {
+        "name": "gh-classroom",
+        "stargazer_count": 126,
+        "language": "Go",
+        "description": "GitHub Classroom CLI Extension is a powerful and easy-to-use command line tool that enhances the functionality of the GitHub CLI, specifically tailored for educators using GitHub Classroom. "
+    },
+    {
+        "name": "rack-statsd",
+        "stargazer_count": 123,
+        "language": "Ruby",
+        "description": "monitor your rack apps in production"
+    },
+    {
+        "name": "internal-documentation-example",
+        "stargazer_count": 119,
+        "language": null,
+        "description": "An example repo that can be copied into a docs folder "
+    },
+    {
+        "name": "game-off-2013",
+        "stargazer_count": 118,
+        "language": null,
+        "description": null
+    },
+    {
+        "name": "actions-oidc-debugger",
+        "stargazer_count": 118,
+        "language": "Go",
+        "description": "An Action for printing OIDC claims in GitHub Actions."
+    },
+    {
+        "name": "jquery-relatize_date",
+        "stargazer_count": 114,
+        "language": "JavaScript",
+        "description": "jQuery version of technoweenie's relative date js library."
+    },
+    {
+        "name": "github-graphql-relay-example",
+        "stargazer_count": 110,
+        "language": "JavaScript",
+        "description": "Example Relay Modern app using GitHub's GraphQL API"
+    },
+    {
+        "name": "actions-oidc-gateway-example",
+        "stargazer_count": 110,
+        "language": "Go",
+        "description": "Example of using Actions OIDC token to proxy into a private network"
+    },
+    {
+        "name": "homebrew-gh",
+        "stargazer_count": 108,
+        "language": null,
+        "description": "Homebrew tap for the GitHub CLI"
+    },
+    {
+        "name": "mysql-haproxy-xinetd",
+        "stargazer_count": 107,
+        "language": "Shell",
+        "description": "Context aware MySQL Replica pools via HAProxy, sample configs & scripts"
+    },
+    {
+        "name": "babel-preset-github",
+        "stargazer_count": 106,
+        "language": "JavaScript",
+        "description": "GitHub.com's Babel configuration"
+    },
+    {
+        "name": "codespaces-flask",
+        "stargazer_count": 106,
+        "language": "CSS",
+        "description": null
+    },
+    {
+        "name": "textarea-autosize",
+        "stargazer_count": 103,
+        "language": "JavaScript",
+        "description": "Autosizes textarea to size of it's contents."
+    },
+    {
+        "name": "accessibility-alt-text-bot",
+        "stargazer_count": 103,
+        "language": "JavaScript",
+        "description": "An action to remind users to add alt text on Issues, Pull Requests, and Discussions"
+    },
+    {
+        "name": "ghas-jira-integration",
+        "stargazer_count": 101,
+        "language": "Python",
+        "description": "Synchronize GitHub Code Scanning alerts to Jira issues"
+    },
+    {
+        "name": "markdownlint-github",
+        "stargazer_count": 101,
+        "language": "JavaScript",
+        "description": "An opinionated collection of markdownlint rules used by GitHub."
+    },
+    {
+        "name": "gh-projects",
+        "stargazer_count": 101,
+        "language": "Go",
+        "description": "gh-projects"
+    },
+    {
+        "name": "annotated-logger",
+        "stargazer_count": 101,
+        "language": "Python",
+        "description": "A decorator to aid in annotating logs for easier reading and searching"
+    },
+    {
+        "name": "ossar-action",
+        "stargazer_count": 100,
+        "language": "JavaScript",
+        "description": "Run multiple open source security static analysis tools without the added complexity with OSSAR (Open Source Static Analysis Runner)."
+    },
+    {
+        "name": "jquery-hotkeys",
+        "stargazer_count": 99,
+        "language": "JavaScript",
+        "description": "jQuery hotkeys plugin."
+    },
+    {
+        "name": "ssh_data",
+        "stargazer_count": 98,
+        "language": "Ruby",
+        "description": "Ruby library for parsing SSH public keys and certificates"
+    },
+    {
+        "name": "webpack-bundlesize-compare-action",
+        "stargazer_count": 98,
+        "language": "TypeScript",
+        "description": "A github action that outputs bundlesize comparison tables for pull requests"
+    },
+    {
+        "name": "libprojfs",
+        "stargazer_count": 97,
+        "language": "C",
+        "description": "Linux projected filesystem library"
+    },
+    {
+        "name": "strap",
+        "stargazer_count": 96,
+        "language": null,
+        "description": "Archived fork of mikemcquaid/strap \u2620\ufe0f"
+    },
+    {
+        "name": "remote-input-element",
+        "stargazer_count": 92,
+        "language": "JavaScript",
+        "description": "An input element that sends its value to a server endpoint and renders the response body."
+    },
+    {
+        "name": "government-open-source-policies",
+        "stargazer_count": 91,
+        "language": "Python",
+        "description": "Dataset of Government Open Source Policies"
+    },
+    {
+        "name": "audit-actions-workflow-runs",
+        "stargazer_count": 91,
+        "language": "JavaScript",
+        "description": "Audit your GitHub Actions workflow runs to see exactly which Actions were downloaded"
+    },
+    {
+        "name": "homebrew-bootstrap",
+        "stargazer_count": 90,
+        "language": "Ruby",
+        "description": "A series of helper scripts to reduce duplication across `script/bootstrap`s."
+    },
+    {
+        "name": "babel-plugin-transform-custom-element-classes",
+        "stargazer_count": 89,
+        "language": "JavaScript",
+        "description": "Compile ES6 HTMLElement class extensions to ES5"
+    },
+    {
+        "name": "check-all",
+        "stargazer_count": 89,
+        "language": "JavaScript",
+        "description": "Multiple checkbox selection helper."
+    },
+    {
+        "name": "welcome-to-github",
+        "stargazer_count": 87,
+        "language": "HTML",
+        "description": null
+    },
+    {
+        "name": "copilot-codespaces-demo",
+        "stargazer_count": 87,
+        "language": "Python",
+        "description": "Welcome to the Copilot + Codespaces Demo Experience!"
+    },
+    {
+        "name": "gh-mysql-tools",
+        "stargazer_count": 84,
+        "language": "Go",
+        "description": "General purpose MySQL tools by GitHub Engineering"
+    },
+    {
+        "name": "codespaces-preact",
+        "stargazer_count": 84,
+        "language": "JavaScript",
+        "description": null
+    },
+    {
+        "name": "enable-security-alerts-sample",
+        "stargazer_count": 82,
+        "language": "JavaScript",
+        "description": "This repository contains a sample script which can be used to enable security vulnerability alerts in all of the repositories in a given organization. "
+    },
+    {
+        "name": "training.github.com",
+        "stargazer_count": 81,
+        "language": "CSS",
+        "description": "Legacy (no longer published) GitHub Training site"
+    },
+    {
+        "name": "upload",
+        "stargazer_count": 78,
+        "language": "Ruby",
+        "description": "Script to upload files to non-repo storage from the command line"
+    },
+    {
+        "name": "grit",
+        "stargazer_count": 78,
+        "language": "Ruby",
+        "description": "Grit gives you object oriented read/write access to Git repositories via Ruby."
+    },
+    {
+        "name": "query-selector",
+        "stargazer_count": 78,
+        "language": "JavaScript",
+        "description": "Query the document tree by selector, filtering by element type."
+    },
+    {
+        "name": "codespaces-models",
+        "stargazer_count": 78,
+        "language": "Jupyter Notebook",
+        "description": null
+    },
+    {
+        "name": "actions-migrations-via-copilot",
+        "stargazer_count": 78,
+        "language": "Shell",
+        "description": "Migrate to GitHub Actions from multiple other CI/CD systems using Copilot"
+    },
+    {
+        "name": "rails",
+        "stargazer_count": 77,
+        "language": "Ruby",
+        "description": "Ruby on Rails + GitHub patches"
+    },
+    {
+        "name": "copilot-survey-engine",
+        "stargazer_count": 75,
+        "language": "JavaScript",
+        "description": "Engine for prompting users to take a survey about Copilot"
+    },
+    {
+        "name": "ai-assessment-comment-labeler",
+        "stargazer_count": 75,
+        "language": "TypeScript",
+        "description": "AI-powered issue intake tool. Action for retrieving AI assessments for supplied text body"
+    },
+    {
+        "name": "certstore",
+        "stargazer_count": 74,
+        "language": "Go",
+        "description": "Go library for using system certificate stores on macOS/Windows"
+    },
+    {
+        "name": "sonic-pi-challenge",
+        "stargazer_count": 73,
+        "language": "Ruby",
+        "description": "Sonic Pi Challenge at GitHub Universe 2020"
+    },
+    {
+        "name": "GitHub-for-Startups-HQ",
+        "stargazer_count": 73,
+        "language": null,
+        "description": "GitHub for Startups HQ"
+    },
+    {
+        "name": "jekyll-commonmark-ghpages",
+        "stargazer_count": 72,
+        "language": "Ruby",
+        "description": "CommonMark generator for Jekyll used by GitHub Pages"
+    },
+    {
+        "name": "ghec-audit-log-cli",
+        "stargazer_count": 72,
+        "language": "JavaScript",
+        "description": "Query the GitHub Audit Log for your organization to send it over to other services like elastic, splunk or sentinel for visualization and security"
+    },
+    {
+        "name": "spark-template",
+        "stargazer_count": 71,
+        "language": "TypeScript",
+        "description": null
+    },
+    {
+        "name": "maturity-model",
+        "stargazer_count": 70,
+        "language": null,
+        "description": "A maturity model for adopting open source"
+    },
+    {
+        "name": "ietf-cms",
+        "stargazer_count": 70,
+        "language": "Go",
+        "description": "CMS (PKCS#7) library for Go"
+    },
+    {
+        "name": "chatops-controller",
+        "stargazer_count": 69,
+        "language": "Ruby",
+        "description": "A rails plugin to make creating chatops easy"
+    },
+    {
+        "name": "gh-migration-analyzer",
+        "stargazer_count": 69,
+        "language": "JavaScript",
+        "description": null
+    },
+    {
+        "name": "copilot-sdk-java",
+        "stargazer_count": 69,
+        "language": "CSS",
+        "description": "Copilot SDK for Java"
+    },
+    {
+        "name": "codespaces-express",
+        "stargazer_count": 68,
+        "language": "JavaScript",
+        "description": null
+    },
+    {
+        "name": "erblint-github",
+        "stargazer_count": 67,
+        "language": "Ruby",
+        "description": "Template style checking for GitHub's Ruby projects"
+    },
+    {
+        "name": "ai-adoption-playbook",
+        "stargazer_count": 67,
+        "language": null,
+        "description": "GitHub's Playbook for Internal AI Adoption"
+    },
+    {
+        "name": "copilot-app-for-beginners",
+        "stargazer_count": 67,
+        "language": "HTML",
+        "description": "Learn how to get started using the GitHub Copilot app!"
+    },
+    {
+        "name": "emergency-pull-request-probot-app",
+        "stargazer_count": 65,
+        "language": "JavaScript",
+        "description": "Bypass approval and checks in order to merge an emergency change to the main branch with audit controls."
+    },
+    {
+        "name": "octobox",
+        "stargazer_count": 64,
+        "language": "Ruby",
+        "description": "\ud83d\udceeUntangle your GitHub Notifications"
+    },
+    {
+        "name": "remote-form",
+        "stargazer_count": 63,
+        "language": "JavaScript",
+        "description": "Submit forms via AJAX with ease"
+    },
+    {
+        "name": "entitlements-config",
+        "stargazer_count": 63,
+        "language": "Shell",
+        "description": "An example of how Entitlements can be configured"
+    },
+    {
+        "name": "dependency-submission-toolkit",
+        "stargazer_count": 63,
+        "language": "TypeScript",
+        "description": "A TypeScript library for creating dependency snapshots. "
+    },
+    {
+        "name": "filter-input-element",
+        "stargazer_count": 62,
+        "language": "TypeScript",
+        "description": "Display elements in a subtree that match filter input text."
+    },
+    {
+        "name": "codeql-dubbo-workshop",
+        "stargazer_count": 61,
+        "language": "CodeQL",
+        "description": null
+    },
+    {
+        "name": "twirp-rs",
+        "stargazer_count": 61,
+        "language": "Rust",
+        "description": "Twirp RPC for Rust"
+    },
+    {
+        "name": "OHHTTPStubs",
+        "stargazer_count": 60,
+        "language": "Objective-C",
+        "description": "A class to stub network requests easily: test your apps with fake network data (stubbed from file) and custom response time"
+    },
+    {
+        "name": "githubOCTO",
+        "stargazer_count": 60,
+        "language": null,
+        "description": null
+    },
+    {
+        "name": "eslint-plugin-custom-elements",
+        "stargazer_count": 60,
+        "language": "JavaScript",
+        "description": "A series of lint rules for best practices with Custom Elements"
+    },
+    {
+        "name": "go-pipe",
+        "stargazer_count": 60,
+        "language": "Go",
+        "description": "A package used to easily build command pipelines in your Go applications"
+    },
+    {
+        "name": "tainted_hash",
+        "stargazer_count": 59,
+        "language": "Ruby",
+        "description": null
+    },
+    {
+        "name": "github-well-architected",
+        "stargazer_count": 59,
+        "language": "HTML",
+        "description": "Apply design thinking to build and ship your software securely and at scale with GitHub"
+    },
+    {
+        "name": "lock",
+        "stargazer_count": 58,
+        "language": "JavaScript",
+        "description": "Lock Action to support deployment locking for the branch-deploy Action"
+    },
+    {
+        "name": "orchestrator-agent",
+        "stargazer_count": 56,
+        "language": "Go",
+        "description": "MySQL replication topology manager - agent (daemon)"
+    },
+    {
+        "name": "octocanvas",
+        "stargazer_count": 56,
+        "language": "TypeScript",
+        "description": "A web app that creates GitHub-themed collectibles from GitHub profiles"
+    },
+    {
+        "name": "code-scanning-javascript-demo",
+        "stargazer_count": 55,
+        "language": "JavaScript",
+        "description": "GitHub Code Scanning Javascript Tutorial"
+    },
+    {
+        "name": "go-spdx",
+        "stargazer_count": 55,
+        "language": "Go",
+        "description": "Golang implementation of a checker for determining if an SPDX ID satisfies an SPDX Expression."
+    },
+    {
+        "name": "darrrr",
+        "stargazer_count": 53,
+        "language": "Ruby",
+        "description": "An SDK for the delegated recovery specfication"
+    },
+    {
+        "name": "ghterm",
+        "stargazer_count": 52,
+        "language": "JavaScript",
+        "description": "github terminal"
+    },
+    {
+        "name": "hubahuba",
+        "stargazer_count": 51,
+        "language": "Ruby",
+        "description": "Ruby and Rails core extensions used by GitHub."
+    },
+    {
+        "name": "webpack-config-github",
+        "stargazer_count": 51,
+        "language": "JavaScript",
+        "description": "An opinionated webpack config for GitHub apps."
+    },
+    {
+        "name": "codeql-action-sync-tool",
+        "stargazer_count": 51,
+        "language": "Go",
+        "description": "A tool for syncing the CodeQL Action from GitHub.com to GitHub Enterprise Server, including copying the CodeQL bundle."
+    },
+    {
+        "name": "gh-aw-actions",
+        "stargazer_count": 51,
+        "language": "JavaScript",
+        "description": "Shared Actions used with GitHub Agentic Workflows"
+    },
+    {
+        "name": "expecta",
+        "stargazer_count": 49,
+        "language": "Objective-C",
+        "description": "A Matcher Framework for Objective-C/Cocoa"
+    },
+    {
+        "name": "eventlistener-polyfill",
+        "stargazer_count": 49,
+        "language": "JavaScript",
+        "description": "Polyfills EventListener behaviours from IE11 onward"
+    },
+    {
+        "name": "emissary",
+        "stargazer_count": 49,
+        "language": "Go",
+        "description": "Envoy External Authorization API Bridge To SPIFFE Workload API "
+    },
+    {
+        "name": "codespaces-learn-with-me",
+        "stargazer_count": 49,
+        "language": "JavaScript",
+        "description": "This is a Codespaces React template that leverages a Code Tour to guide beginners through writing their first lines of React."
+    },
+    {
+        "name": "octoforce-actions",
+        "stargazer_count": 48,
+        "language": "Shell",
+        "description": "A lightweight open-source Salesforce CI/CD template built on the GitHub Actions platform."
+    },
+    {
+        "name": "codespaces-host-images",
+        "stargazer_count": 48,
+        "language": null,
+        "description": "Codespaces Host Images"
+    },
+    {
+        "name": "octokit.py",
+        "stargazer_count": 47,
+        "language": "Python",
+        "description": "GitHub API client for Python"
+    },
+    {
+        "name": "tweetsodium",
+        "stargazer_count": 47,
+        "language": "JavaScript",
+        "description": "libsodium sealed cryptobox using tweetnacl"
+    },
+    {
+        "name": "deploy-nodejs",
+        "stargazer_count": 47,
+        "language": "Shell",
+        "description": "GitHub Action to deploy a NodeJS app to AWS Serverless"
+    },
+    {
+        "name": "cvelist",
+        "stargazer_count": 47,
+        "language": null,
+        "description": "Pilot program for CVE submission through GitHub"
+    },
+    {
+        "name": "developer-policy",
+        "stargazer_count": 47,
+        "language": null,
+        "description": "The GitHub Policy Team created and maintains this repository as a place for developers to contribute to our policy work."
+    },
+    {
+        "name": "ssh-key-algo",
+        "stargazer_count": 47,
+        "language": "Shell",
+        "description": "Script to check if the SSH key algorithm is up to date"
+    },
+    {
+        "name": "transparency",
+        "stargazer_count": 46,
+        "language": "Python",
+        "description": "Structured data files for topics covered by GitHub's Transparency Report"
+    },
+    {
+        "name": "go-opstocat",
+        "stargazer_count": 45,
+        "language": "Go",
+        "description": "DEPRECATED"
+    },
+    {
+        "name": "gh-codeql",
+        "stargazer_count": 45,
+        "language": "Shell",
+        "description": "GitHub CLI extension for working with CodeQL"
+    },
+    {
+        "name": "automatic-contrib-prs",
+        "stargazer_count": 45,
+        "language": "Python",
+        "description": "Automatically open a pull request for repositories that have no CONTRIBUTING.md file"
+    },
+    {
+        "name": "welcome-to-github-and-desktop",
+        "stargazer_count": 44,
+        "language": "HTML",
+        "description": null
+    },
+    {
+        "name": "licensed-ci",
+        "stargazer_count": 44,
+        "language": "JavaScript",
+        "description": "Update and check cached licenses in a GitHub Actions workflow"
+    },
+    {
+        "name": "specta",
+        "stargazer_count": 43,
+        "language": "Objective-C",
+        "description": "A light-weight TDD / BDD framework for Objective-C & Cocoa"
+    },
+    {
+        "name": "s3gof3r",
+        "stargazer_count": 43,
+        "language": "Go",
+        "description": "Fast, concurrent, streaming access to Amazon S3, including gof3r, a CLI. http://godoc.org/github.com/rlmcpherson/s3gof3r"
+    },
+    {
+        "name": "multimap",
+        "stargazer_count": 43,
+        "language": "JavaScript",
+        "description": "A map in which more than one value may be stored under each key."
+    },
+    {
+        "name": "pagerduty-incident-webhooks",
+        "stargazer_count": 42,
+        "language": "Ruby",
+        "description": "Heroku app that fires webhooks for triggered PagerDuty incidents"
+    },
+    {
+        "name": "fiber-fragments",
+        "stargazer_count": 41,
+        "language": "Go",
+        "description": ":framed_picture: Micro fragmentation middleware for fiber :rocket: that enables to build microservice frontends."
+    },
+    {
+        "name": "form-data-entries",
+        "stargazer_count": 40,
+        "language": "JavaScript",
+        "description": "FormData.entries ponyfill"
+    },
+    {
+        "name": "globalmaintainersummit.github.com",
+        "stargazer_count": 40,
+        "language": "Vue",
+        "description": "Website for upcoming Global Source Maintainer Summit \u00b7 June 8-9 2021."
+    },
+    {
+        "name": "entitlements-github-plugin",
+        "stargazer_count": 40,
+        "language": "Ruby",
+        "description": "Entitlements plugin to manage GitHub Orgs and Team memberships and access"
+    },
+    {
+        "name": "rubocop-rails-accessibility",
+        "stargazer_count": 40,
+        "language": "Ruby",
+        "description": "This repository provides recommended RuboCop configuration and additional accessibility RuboCop Rails cops for use on open source and internal Rails projects."
+    },
+    {
+        "name": "codespaces-codeql",
+        "stargazer_count": 40,
+        "language": "Shell",
+        "description": "Get to know more about the concepts of CodeQL by trying our simple tutorials."
+    },
+    {
+        "name": "arianotify-polyfill",
+        "stargazer_count": 40,
+        "language": "JavaScript",
+        "description": "Polyfill for the ARIA Notification API"
+    },
+    {
+        "name": "elasticsearch-srv-discovery",
+        "stargazer_count": 39,
+        "language": "Java",
+        "description": "Elasticsearch discovery with SRV records"
+    },
+    {
+        "name": "graphql-relay-walker",
+        "stargazer_count": 39,
+        "language": "Ruby",
+        "description": "Walk the graph"
+    },
+    {
+        "name": "ledbetter",
+        "stargazer_count": 38,
+        "language": "Ruby",
+        "description": "Script that scrapes alert statistics from Nagios and reports them to Graphite"
+    },
+    {
+        "name": "codeql-learninglab-actions",
+        "stargazer_count": 38,
+        "language": "TypeScript",
+        "description": "Actions and Images for use in Learning Lab courses for CodeQL"
+    },
+    {
+        "name": "cost-center-automation",
+        "stargazer_count": 38,
+        "language": "Python",
+        "description": "Open source utilities for automating cost center administration"
+    },
+    {
+        "name": "quote-selection",
+        "stargazer_count": 37,
+        "language": "TypeScript",
+        "description": "Install a shortcut to append selected text to a <textarea> as a Markdown quote."
+    },
+    {
+        "name": "prettier-config",
+        "stargazer_count": 37,
+        "language": "Dockerfile",
+        "description": "Prettier config used at GitHub"
+    },
+    {
+        "name": "memoize",
+        "stargazer_count": 37,
+        "language": "TypeScript",
+        "description": null
+    },
+    {
+        "name": "browserslist-config",
+        "stargazer_count": 37,
+        "language": "JavaScript",
+        "description": "The GitHub browserslist config"
+    },
+    {
+        "name": "msysgit",
+        "stargazer_count": 35,
+        "language": "C",
+        "description": "The version of msysGit that ships with GitHub for Windows"
+    },
+    {
+        "name": "u2f-api",
+        "stargazer_count": 35,
+        "language": "JavaScript",
+        "description": "High level JavaScript API for interacting with FIDO U2F devices in Chrome"
+    },
+    {
+        "name": "vitess-gh",
+        "stargazer_count": 35,
+        "language": "Go",
+        "description": "Vitess is a database clustering system for horizontal scaling of MySQL."
+    },
+    {
+        "name": "metrics-exporter-statsd",
+        "stargazer_count": 35,
+        "language": "Rust",
+        "description": "Statsd metrics exporter for https://github.com/metrics-rs/metrics/"
+    },
+    {
+        "name": "spokes-receive-pack",
+        "stargazer_count": 35,
+        "language": "Go",
+        "description": "Replacement for git-receive-pack, included with gitrpcd for distribution"
+    },
+    {
+        "name": "update-project-action",
+        "stargazer_count": 34,
+        "language": "TypeScript",
+        "description": "Updates an item on a GitHub Projects (beta) board based on a workflow dispatch (or other) event's input."
+    },
+    {
+        "name": "request-marketplace-action",
+        "stargazer_count": 34,
+        "language": "Dockerfile",
+        "description": "Actions workflows to help organizations manage the process of users requesting to use GitHub Actions from Marketplace and approving or denying such requests within an organization."
+    },
+    {
+        "name": "open-data-on-github",
+        "stargazer_count": 34,
+        "language": "Python",
+        "description": "Dataset files for the Open Data on GitHub paper"
+    },
+    {
+        "name": "canvas-lms",
+        "stargazer_count": 34,
+        "language": "Ruby",
+        "description": "The open LMS by Instructure, Inc."
+    },
+    {
+        "name": "testrepo",
+        "stargazer_count": 33,
+        "language": "C",
+        "description": "DON'T DELETE THIS. USED FOR MONITORING AND WHATNOT."
+    },
+    {
+        "name": "brakeman",
+        "stargazer_count": 33,
+        "language": "Ruby",
+        "description": "A static analysis security vulnerability scanner for Ruby on Rails applications"
+    },
+    {
+        "name": "puppet-orchestrator-for-mysql",
+        "stargazer_count": 33,
+        "language": "Puppet",
+        "description": "Puppet Module used with Orchestrator"
+    },
+    {
+        "name": "gh-es",
+        "stargazer_count": 33,
+        "language": null,
+        "description": "GitHub's official command line tool for Enterprise Server"
+    },
+    {
+        "name": "octofacts",
+        "stargazer_count": 32,
+        "language": "Ruby",
+        "description": "Automate creation and maintenance of complete fact sets for rspec-puppet tests"
+    },
+    {
+        "name": "mlops",
+        "stargazer_count": 32,
+        "language": "JavaScript",
+        "description": "Use GitHub to facilitate automation, collaboration and reproducibility in your machine learning workflows."
+    },
+    {
+        "name": "Skills-Based-Volunteering-Public",
+        "stargazer_count": 32,
+        "language": null,
+        "description": "Template for setting up a Skills-Based Volunteering Program"
+    },
+    {
+        "name": "codespaces-jetbrains-feedback",
+        "stargazer_count": 32,
+        "language": null,
+        "description": "Feedback on the Codespaces integration with JetBrains IDEs"
+    },
+    {
+        "name": "copilot-billing-preview",
+        "stargazer_count": 32,
+        "language": "TypeScript",
+        "description": "An application for previewing and comparing your future GitHub Copilot bills as you transition to the new usage-based billing model."
+    },
+    {
+        "name": "will_paginate_with_hotkeys",
+        "stargazer_count": 31,
+        "language": "Ruby",
+        "description": "Evil twin plugin version of will_paginate to work with jQuery hotkeys plugin."
+    },
+    {
+        "name": "azure-quickstart-templates",
+        "stargazer_count": 31,
+        "language": "Shell",
+        "description": "Azure Quickstart Templates"
+    },
+    {
+        "name": "debug-repo",
+        "stargazer_count": 31,
+        "language": "JavaScript",
+        "description": "This is a debug repo for github-debug.com"
+    },
+    {
+        "name": "linux",
+        "stargazer_count": 31,
+        "language": "C",
+        "description": "Linux kernel source tree"
+    },
+    {
+        "name": "issue-parser",
+        "stargazer_count": 31,
+        "language": "TypeScript",
+        "description": "Convert issue form responses to JSON"
+    },
+    {
+        "name": "circuitbreaker",
+        "stargazer_count": 30,
+        "language": null,
+        "description": "Circuit Breakers in Go"
+    },
+    {
+        "name": "AFNetworking",
+        "stargazer_count": 30,
+        "language": "Objective-C",
+        "description": "A delightful iOS and OS X networking framework"
+    },
+    {
+        "name": "setup-licensed",
+        "stargazer_count": 30,
+        "language": "JavaScript",
+        "description": "Set up your GitHub Actions workflow with a specific version of github/licensed"
+    },
+    {
+        "name": "gem-builder",
+        "stargazer_count": 29,
+        "language": "Ruby",
+        "description": "The scripts used to build RubyGems on GitHub"
+    },
+    {
+        "name": "proto-gen-go",
+        "stargazer_count": 29,
+        "language": "Go",
+        "description": "A 'go generate' script to generate Go files from .proto interfaces"
+    },
+    {
+        "name": "privileged-requester",
+        "stargazer_count": 29,
+        "language": "JavaScript",
+        "description": "Privileged Requester Action"
+    },
+    {
+        "name": "gh-combine",
+        "stargazer_count": 29,
+        "language": "Go",
+        "description": "A gh cli extension to automatically combine multiple pull requests into one"
+    },
+    {
+        "name": "hr-opensource",
+        "stargazer_count": 28,
+        "language": null,
+        "description": "An open forum for anyone to discuss HR related topics & ideas"
+    },
+    {
+        "name": "form-templates",
+        "stargazer_count": 28,
+        "language": null,
+        "description": "Public Form Templates to get your project started"
+    },
+    {
+        "name": "ohnogit",
+        "stargazer_count": 27,
+        "language": "TypeScript",
+        "description": "For when you have to use git in nodejs."
+    },
+    {
+        "name": "incubator-airflow",
+        "stargazer_count": 27,
+        "language": "Python",
+        "description": "Apache Airflow (Incubating)"
+    },
+    {
+        "name": "review-pull-requests-at-github-template",
+        "stargazer_count": 27,
+        "language": "HTML",
+        "description": "Template for GitHub's Reviewing Pull Requests Learning Lab course. Course \u27a1\ufe0f"
+    },
+    {
+        "name": "artifact-attestations-opa-provider",
+        "stargazer_count": 27,
+        "language": "Go",
+        "description": "OPA Gatekeeper provider for GitHub Artifact Attestations"
+    },
+    {
+        "name": "RepoRepairTool",
+        "stargazer_count": 26,
+        "language": "C#",
+        "description": "Repairs common Windows repository problems with encodings or line endings"
+    },
+    {
+        "name": "Spoon-Knife",
+        "stargazer_count": 26,
+        "language": "HTML",
+        "description": "This repo is for demonstration purposes only."
+    },
+    {
+        "name": "entitlements-gitrepo-auditor-plugin",
+        "stargazer_count": 26,
+        "language": "Ruby",
+        "description": "Entitlements plugin for a robust audit log"
+    },
+    {
+        "name": "Research-Panel-Sweepstakes",
+        "stargazer_count": 26,
+        "language": "Python",
+        "description": null
+    },
+    {
+        "name": "ruby-thecodeshop",
+        "stargazer_count": 25,
+        "language": "Ruby",
+        "description": "The Ruby Programming Language"
+    },
+    {
+        "name": "freno-client",
+        "stargazer_count": 25,
+        "language": "Ruby",
+        "description": "Ruby client and throttling library for freno, the throttler service"
+    },
+    {
+        "name": "argo-ml",
+        "stargazer_count": 25,
+        "language": "Python",
+        "description": "Controllers, wrappers and miscaleus utils to make it easier for Argo to be used in ML scenarios"
+    },
+    {
+        "name": "skeema",
+        "stargazer_count": 25,
+        "language": "Go",
+        "description": "Schema management CLI for MySQL"
+    },
+    {
+        "name": "codeql-variant-analysis-action",
+        "stargazer_count": 25,
+        "language": "TypeScript",
+        "description": null
+    },
+    {
+        "name": "artifact-attestations-helm-charts",
+        "stargazer_count": 25,
+        "language": "Go Template",
+        "description": "Helm charts for verifying artifact attestations in Kubernetes"
+    },
+    {
+        "name": "models-ai-sdk",
+        "stargazer_count": 25,
+        "language": "TypeScript",
+        "description": "GitHub Models AI SDK"
+    },
+    {
+        "name": "TUIKit",
+        "stargazer_count": 25,
+        "language": "TypeScript",
+        "description": "A spec-driven system for building TUI components across programming languages"
+    },
+    {
+        "name": "replica",
+        "stargazer_count": 25,
+        "language": "TypeScript",
+        "description": "Interactive prototyping tools for your team."
+    },
+    {
+        "name": "ernicorn",
+        "stargazer_count": 24,
+        "language": "Ruby",
+        "description": "Ruby BERTRPC server based on Unicorn"
+    },
+    {
+        "name": "game-o",
+        "stargazer_count": 24,
+        "language": "JavaScript",
+        "description": "O! a Cut.js game"
+    },
+    {
+        "name": "user-select-contain-polyfill",
+        "stargazer_count": 24,
+        "language": "JavaScript",
+        "description": "Polyfills `user-select: contain` property value"
+    },
+    {
+        "name": "Dynamic-Template-Engine",
+        "stargazer_count": 24,
+        "language": "TypeScript",
+        "description": "A typescript library to transform event payloads (in json format) to standard jsons or chat client platform specific jsons (e.g. Slack and Teams) using templates (e.g. handlebars)"
+    },
+    {
+        "name": "codespaces-getting-started-ml",
+        "stargazer_count": 24,
+        "language": "Jupyter Notebook",
+        "description": "Simple image classifier that introduces machine learning with Codespaces"
+    },
+    {
+        "name": "copilot-release-notes",
+        "stargazer_count": 24,
+        "language": "TypeScript",
+        "description": "AI-powered release notes generation using Copilot CLI"
+    },
+    {
+        "name": "nugget",
+        "stargazer_count": 23,
+        "language": "Ruby",
+        "description": "http integration test service"
+    },
+    {
+        "name": "hubot-slack",
+        "stargazer_count": 23,
+        "language": "CoffeeScript",
+        "description": null
+    },
+    {
+        "name": "VFSForGit",
+        "stargazer_count": 23,
+        "language": "C#",
+        "description": "GitHub development on VFSForGit [please fork upstream microsoft/VFSForGit repository instead of this one]"
+    },
+    {
+        "name": "welcome-to-github-and-pages",
+        "stargazer_count": 23,
+        "language": "HTML",
+        "description": null
+    },
+    {
+        "name": "gh-ado2gh",
+        "stargazer_count": 23,
+        "language": null,
+        "description": "Migration CLI for Azure DevOps to GitHub migrations"
+    },
+    {
+        "name": "copilot-engine-sdk",
+        "stargazer_count": 23,
+        "language": "TypeScript",
+        "description": "SDK for Copilot Agent Engines"
+    },
+    {
+        "name": "develop.github.com",
+        "stargazer_count": 22,
+        "language": "CSS",
+        "description": "Outdated documentation for GitHub API v2.  See http://developer.github.com/ for the current API."
+    },
+    {
+        "name": "refined-github",
+        "stargazer_count": 22,
+        "language": "JavaScript",
+        "description": "Browser extension that simplifies the GitHub interface and adds useful features"
+    },
+    {
+        "name": "oauth2_proxy",
+        "stargazer_count": 22,
+        "language": "Go",
+        "description": "A reverse proxy that provides authentication with Google, Github or other provider"
+    },
+    {
+        "name": "spec-kit-copilot",
+        "stargazer_count": 22,
+        "language": "JavaScript",
+        "description": "Copilot-native integrations for Spec Kit across GitHub Copilot CLI, the Copilot App, and VS Code."
+    },
+    {
+        "name": "pong",
+        "stargazer_count": 21,
+        "language": null,
+        "description": "Auxiliary repository for external ping checks"
+    },
+    {
+        "name": "omniauth",
+        "stargazer_count": 21,
+        "language": "Ruby",
+        "description": "OmniAuth is a flexible authentication system utilizing Rack middleware."
+    },
+    {
+        "name": "Quick",
+        "stargazer_count": 21,
+        "language": "Swift",
+        "description": "A behavior-driven development test framework for Swift and Objective-C."
+    },
+    {
+        "name": "KustoSchemaTools",
+        "stargazer_count": 21,
+        "language": "C#",
+        "description": "This repository contains C# code to synchronize database schemas from Azure Data Explorer (Kusto) to yaml files and back."
+    },
+    {
+        "name": "agentfinder-catalog",
+        "stargazer_count": 21,
+        "language": "Python",
+        "description": null
+    },
+    {
+        "name": "gitcasts",
+        "stargazer_count": 20,
+        "language": "CSS",
+        "description": "Educational screencasts about Git"
+    },
+    {
+        "name": "braintree-encryption",
+        "stargazer_count": 20,
+        "language": "JavaScript",
+        "description": "Javascript Library for Client-side Encryption with Braintree"
+    },
+    {
+        "name": "request_timer",
+        "stargazer_count": 19,
+        "language": "Ruby",
+        "description": "Simple Rails request timer with even simpler js bookmarklet."
+    },
+    {
+        "name": "evenflow",
+        "stargazer_count": 19,
+        "language": "Ruby",
+        "description": "sFlow to Graphite bridge"
+    },
+    {
+        "name": "cas-overlay",
+        "stargazer_count": 19,
+        "language": "Shell",
+        "description": "Maven overlay for local CAS development and testing"
+    },
+    {
+        "name": "browser-detection",
+        "stargazer_count": 19,
+        "language": "JavaScript",
+        "description": "A utility for detecting browsers in Braintree libs."
+    },
+    {
+        "name": "copilot-sdk-server-sample",
+        "stargazer_count": 19,
+        "language": "TypeScript",
+        "description": "Sample of a multiuser system using GitHub Copilot SDK"
+    },
+    {
+        "name": "copilot-advanced-security-plugin",
+        "stargazer_count": 19,
+        "language": null,
+        "description": "The official GitHub Copilot Advanced Security plugin"
+    },
+    {
+        "name": "multilingual-repositories",
+        "stargazer_count": 19,
+        "language": null,
+        "description": "A repository-level metadata dataset intended to help researchers find GitHub repositories with evidence of non-English natural-language content"
+    },
+    {
+        "name": "safegem",
+        "stargazer_count": 18,
+        "language": "Ruby",
+        "description": "GitHub's safe gem eval web service"
+    },
+    {
+        "name": "webcomponentsjs",
+        "stargazer_count": 18,
+        "language": "HTML",
+        "description": "A suite of polyfills supporting the HTML Web Components specs"
+    },
+    {
+        "name": "OAuth-Ruby-Quickstart",
+        "stargazer_count": 18,
+        "language": "HTML",
+        "description": "Starter code and quickstart guide for a GitHub OAuth App in Ruby"
+    },
+    {
+        "name": "depstubber",
+        "stargazer_count": 18,
+        "language": "Go",
+        "description": "Depstubber generates type-correct stubs for Go dependencies, for use in testing"
+    },
+    {
+        "name": "hackerone-client",
+        "stargazer_count": 18,
+        "language": "Ruby",
+        "description": "An unofficial wrapper for the HackerOne API"
+    },
+    {
+        "name": "gh-bbs2gh",
+        "stargazer_count": 18,
+        "language": null,
+        "description": "Migration CLI for BitBucket Server to GitHub migrations"
+    },
+    {
+        "name": "rest-api-docs-md",
+        "stargazer_count": 18,
+        "language": null,
+        "description": "Documentation for read-only REST API operations, generated from the OpenAPI schema"
+    },
+    {
+        "name": "deployment-tracker",
+        "stargazer_count": 18,
+        "language": "Go",
+        "description": "Provides K8s integration with GitHub's artifact metadata API"
+    },
+    {
+        "name": "node-keytar",
+        "stargazer_count": 18,
+        "language": "C++",
+        "description": null
+    },
+    {
+        "name": "actions-lockfile",
+        "stargazer_count": 18,
+        "language": "Go",
+        "description": "The authoritative definition of the GitHub Actions dependency lockfile format, plus a Go parser for auditing and verifying the action pins in use across a repo's workflows."
+    },
+    {
+        "name": "MASPreferences",
+        "stargazer_count": 17,
+        "language": "Objective-C",
+        "description": "Custom implementation of Preferences window in Cocoa applications for Mac OS X"
+    },
+    {
+        "name": "aptly",
+        "stargazer_count": 17,
+        "language": null,
+        "description": "aptly - Debian repository management tool"
+    },
+    {
+        "name": "html-pipeline",
+        "stargazer_count": 17,
+        "language": "Ruby",
+        "description": "HTML processing filters and utilities"
+    },
+    {
+        "name": "github-1",
+        "stargazer_count": 17,
+        "language": "JavaScript",
+        "description": "A higher-level wrapper around the Github API. Intended for the browser."
+    },
+    {
+        "name": "flit",
+        "stargazer_count": 17,
+        "language": "Java",
+        "description": "Twitch Twirp RPC implementation for Java"
+    },
+    {
+        "name": "proxysql",
+        "stargazer_count": 17,
+        "language": "C++",
+        "description": "High-performance MySQL proxy with a GPL license."
+    },
+    {
+        "name": "turbo",
+        "stargazer_count": 17,
+        "language": "TypeScript",
+        "description": "The speed of a single-page web application without having to write any JavaScript"
+    },
+    {
+        "name": "artifact-attestations-workflows",
+        "stargazer_count": 17,
+        "language": "Python",
+        "description": "Demo repository showcasing how to use reusable workflows to build artifact attestations"
+    },
+    {
+        "name": "node-statsd",
+        "stargazer_count": 16,
+        "language": "JavaScript",
+        "description": "node.js client for Etsy'd StatsD server"
+    },
+    {
+        "name": "GHKeyBrowser",
+        "stargazer_count": 16,
+        "language": "C++",
+        "description": "GitHub Key Verification Helper"
+    },
+    {
+        "name": "aws-s3",
+        "stargazer_count": 16,
+        "language": "Ruby",
+        "description": "Fork of AWS-S3 with some custom patches.  Removes const_missing hacks like the jaf-s3 gem."
+    },
+    {
+        "name": "ghfw-build-extra",
+        "stargazer_count": 16,
+        "language": "Shell",
+        "description": "Build scripts and customizations for creating the Git Shell environment included in GitHub Desktop"
+    },
+    {
+        "name": "bert",
+        "stargazer_count": 16,
+        "language": "Ruby",
+        "description": "BERT (Binary ERlang Term) serialization library for Ruby."
+    },
+    {
+        "name": "lit-html",
+        "stargazer_count": 16,
+        "language": "TypeScript",
+        "description": "HTML template literals in JavaScript"
+    },
+    {
+        "name": "release-assets",
+        "stargazer_count": 16,
+        "language": null,
+        "description": "This repository is used to manage assets related to releases in github/releases"
+    },
+    {
+        "name": "redacting-logger",
+        "stargazer_count": 16,
+        "language": "Ruby",
+        "description": "A redacting Ruby logger to prevent the leaking of secrets via logs"
+    },
+    {
+        "name": "travel-reservation-models",
+        "stargazer_count": 16,
+        "language": null,
+        "description": "Let's play with all the different Copilot models!"
+    },
+    {
+        "name": "banana_phone",
+        "stargazer_count": 15,
+        "language": "Ruby",
+        "description": "BananaPhone is RPC for BananaPack"
+    },
+    {
+        "name": "veewee",
+        "stargazer_count": 15,
+        "language": "Shell",
+        "description": "Easing the building of vagrant boxes"
+    },
+    {
+        "name": "replicate",
+        "stargazer_count": 15,
+        "language": "Ruby",
+        "description": "Dump and load relational objects between Ruby environments."
+    },
+    {
+        "name": "babel-plugin-transform-invariant-location",
+        "stargazer_count": 15,
+        "language": "JavaScript",
+        "description": "Babel plugin that rewrites invariant calls with their source location"
+    },
+    {
+        "name": "fakeca",
+        "stargazer_count": 15,
+        "language": "Go",
+        "description": "Certificate authority fixtures for Go tests"
+    },
+    {
+        "name": "invisible-recaptcha-validator",
+        "stargazer_count": 15,
+        "language": "JavaScript",
+        "description": "Simple Express Server for invisible reCaptcha server-side validation"
+    },
+    {
+        "name": "rollup-and-away",
+        "stargazer_count": 15,
+        "language": "TypeScript",
+        "description": "Declarative template-based building blocks for generating Rollup reports, including AI summaries"
+    },
+    {
+        "name": "gh-aw-threat-detection",
+        "stargazer_count": 15,
+        "language": "Go",
+        "description": "GitHub Agentic Workflows Threat Detection"
+    },
+    {
+        "name": "accessibility-scanner-alt-text-plugin",
+        "stargazer_count": 15,
+        "language": "TypeScript",
+        "description": "A plugin for the GitHub Accessibility Scanner that flags low-quality alt text on images."
+    },
+    {
+        "name": "puppetlabs-puppet",
+        "stargazer_count": 14,
+        "language": "Ruby",
+        "description": "Server automation framework and application"
+    },
+    {
+        "name": "buildstep",
+        "stargazer_count": 14,
+        "language": "Shell",
+        "description": "Buildstep uses Docker and Buildpacks to build applications like Heroku"
+    },
+    {
+        "name": "backstop",
+        "stargazer_count": 14,
+        "language": "Ruby",
+        "description": "HTTP service for submitting metrics to Graphite"
+    },
+    {
+        "name": "hubot-pager-me",
+        "stargazer_count": 14,
+        "language": "CoffeeScript",
+        "description": "PagerDuty integration for Hubot"
+    },
+    {
+        "name": "gh-ost-ci-env",
+        "stargazer_count": 14,
+        "language": "Shell",
+        "description": "CI environment for gh-ost testing"
+    },
+    {
+        "name": "d3",
+        "stargazer_count": 14,
+        "language": "JavaScript",
+        "description": "Bring data to life with SVG, Canvas and HTML. :bar_chart::chart_with_upwards_trend::tada:"
+    },
+    {
+        "name": "sdr-code-camp",
+        "stargazer_count": 14,
+        "language": "HTML",
+        "description": "learn you some code!"
+    },
+    {
+        "name": "taps",
+        "stargazer_count": 13,
+        "language": "Ruby",
+        "description": "simple database import/export app"
+    },
+    {
+        "name": "ssziparchive",
+        "stargazer_count": 13,
+        "language": "C",
+        "description": "Utility class for zipping and unzipping files on iOS and Mac"
+    },
+    {
+        "name": "uiimage-from-animated-gif",
+        "stargazer_count": 13,
+        "language": "Objective-C",
+        "description": "A UIImage category that loads animated GIFs"
+    },
+    {
+        "name": "git-msysgit",
+        "stargazer_count": 13,
+        "language": "C",
+        "description": "GitHub version of msysgit/git"
+    },
+    {
+        "name": "nagios-plugins-github",
+        "stargazer_count": 13,
+        "language": "C",
+        "description": null
+    },
+    {
+        "name": "SharpDevelop",
+        "stargazer_count": 13,
+        "language": "C#",
+        "description": "#develop (short for SharpDevelop) is a free IDE for .NET programming languages."
+    },
+    {
+        "name": "Nimble",
+        "stargazer_count": 13,
+        "language": "Swift",
+        "description": "A Matcher Framework for Swift and Objective-C"
+    },
+    {
+        "name": "facter",
+        "stargazer_count": 13,
+        "language": "Ruby",
+        "description": "Collect and display system facts"
+    },
+    {
+        "name": "codemirror-contrib",
+        "stargazer_count": 13,
+        "language": "JavaScript",
+        "description": "CodeMirror community contributions"
+    },
+    {
+        "name": "snakebite",
+        "stargazer_count": 13,
+        "language": "Python",
+        "description": "A pure python HDFS client"
+    },
+    {
+        "name": "url-search-params",
+        "stargazer_count": 13,
+        "language": "JavaScript",
+        "description": "Simple polyfill for URLSearchParams standard"
+    },
+    {
+        "name": "babel-plugin-ensure-name-for-custom-elements",
+        "stargazer_count": 13,
+        "language": "JavaScript",
+        "description": "This plugin makes sure that your custom elements always have a name property, even after minifying."
+    },
+    {
+        "name": "rollup.js",
+        "stargazer_count": 13,
+        "language": "JavaScript",
+        "description": "Next-generation ES module bundler"
+    },
+    {
+        "name": "Pac-tocat",
+        "stargazer_count": 13,
+        "language": "JavaScript",
+        "description": "PacMan game starring the lovable GitHub octocat mascot"
+    },
+    {
+        "name": "KustoSchemaToolsAction",
+        "stargazer_count": 13,
+        "language": "C#",
+        "description": "This repository wraps the KustoSchemaTools into a CLI tool inside a container. This way it can be used as GitHub Action"
+    },
+    {
+        "name": "gh-autofix",
+        "stargazer_count": 13,
+        "language": null,
+        "description": "gh cli extension for interacting with code scanning autofixes"
+    },
+    {
+        "name": "foreman",
+        "stargazer_count": 12,
+        "language": "Ruby",
+        "description": "Manage Procfile-based applications"
+    },
+    {
+        "name": "nagioseasier-module",
+        "stargazer_count": 12,
+        "language": null,
+        "description": "Make nagios easier to use, because you deserve it."
+    },
+    {
+        "name": "grocer",
+        "stargazer_count": 12,
+        "language": null,
+        "description": "Pushing your Apple notifications since 2012."
+    },
+    {
+        "name": "libgit2sharp",
+        "stargazer_count": 12,
+        "language": "C#",
+        "description": "Git + .Net/Mono = \u2764"
+    },
+    {
+        "name": "rubycas-server",
+        "stargazer_count": 12,
+        "language": "Ruby",
+        "description": "Provides single sign-on authentication for web applications, implementing the server-end of Jasig's CAS protocol."
+    },
+    {
+        "name": "octo-recipes",
+        "stargazer_count": 12,
+        "language": null,
+        "description": "A GitHub repository used to collaborate on recipes"
+    },
+    {
+        "name": "lua-nginx-module",
+        "stargazer_count": 12,
+        "language": "C",
+        "description": "Embed the Power of Lua into NGINX HTTP servers"
+    },
+    {
+        "name": "rundeck-chatops-plugin",
+        "stargazer_count": 12,
+        "language": "Java",
+        "description": "Rundeck workflow task plugin which executes a ChatOps RPC API call."
+    },
+    {
+        "name": "hubot-mysql-datastore",
+        "stargazer_count": 12,
+        "language": "JavaScript",
+        "description": "MySQL-backed datastore for use with Hubot"
+    },
+    {
+        "name": "code-navigation",
+        "stargazer_count": 12,
+        "language": null,
+        "description": "Public documentation about GitHub's code navigation system"
+    },
+    {
+        "name": "mime-types",
+        "stargazer_count": 11,
+        "language": "Ruby",
+        "description": "Ruby MIME::Types implementation"
+    },
+    {
+        "name": "django-floppyforms",
+        "stargazer_count": 11,
+        "language": "Python",
+        "description": "Full control of form rendering in the templates."
+    },
+    {
+        "name": "serialized_attributes",
+        "stargazer_count": 11,
+        "language": "Ruby",
+        "description": "UNMAINTAINED - kind of a bridge between using AR and a full blown schema-free db"
+    },
+    {
+        "name": "puppet-module-group",
+        "stargazer_count": 11,
+        "language": null,
+        "description": "Puppet Group Module (custom group providers)"
+    },
+    {
+        "name": "kano-desktop",
+        "stargazer_count": 11,
+        "language": "Shell",
+        "description": null
+    },
+    {
+        "name": "GITHUB-ENTERPRISE-LICENSE-AGREEMENT",
+        "stargazer_count": 11,
+        "language": null,
+        "description": "GITHUB LICENSE AGREEMENT: PLEASE SIGN IN ALL CAPS"
+    },
+    {
+        "name": "restricted-input",
+        "stargazer_count": 11,
+        "language": "JavaScript",
+        "description": "Restrict <input>s to certain valid characters (e.g. formatting phone or card numbers)"
+    },
+    {
+        "name": "presto",
+        "stargazer_count": 11,
+        "language": "Java",
+        "description": "Distributed SQL query engine for big data"
+    },
+    {
+        "name": "libbuffer",
+        "stargazer_count": 11,
+        "language": "C",
+        "description": "This library holds utility functions for working with string buffers in C."
+    },
+    {
+        "name": "hooks",
+        "stargazer_count": 11,
+        "language": "Ruby",
+        "description": "A Pluggable Webhook Server Framework written in Ruby"
+    },
+    {
+        "name": "git-sms",
+        "stargazer_count": 11,
+        "language": "Python",
+        "description": " Proof-of-concept. GitHub via SMS."
+    },
+    {
+        "name": "enterprise-ohai",
+        "stargazer_count": 10,
+        "language": "Ruby",
+        "description": "Ohai plugins from GitHub Enterprise"
+    },
+    {
+        "name": "puppet-aptmirror",
+        "stargazer_count": 10,
+        "language": "Puppet",
+        "description": "Mirror of Puppet's APT repo"
+    },
+    {
+        "name": "htttee",
+        "stargazer_count": 10,
+        "language": "Ruby",
+        "description": "unix's tee over http"
+    },
+    {
+        "name": "aroma",
+        "stargazer_count": 10,
+        "language": "C",
+        "description": "a game engine: lua, opengl es 2.0, native client"
+    },
+    {
+        "name": "pages-cucumber-fixture",
+        "stargazer_count": 10,
+        "language": null,
+        "description": "Some fixtures for pages tests"
+    },
+    {
+        "name": "winbootstrap",
+        "stargazer_count": 10,
+        "language": "PowerShell",
+        "description": null
+    },
+    {
+        "name": "jenkins_api_client",
+        "stargazer_count": 10,
+        "language": "Ruby",
+        "description": "Ruby Client libraries for communicating with Jenkins Remote Access API"
+    },
+    {
+        "name": "services-implementation-challenge",
+        "stargazer_count": 10,
+        "language": "Java",
+        "description": null
+    },
+    {
+        "name": "omnisharp-vscode",
+        "stargazer_count": 10,
+        "language": "TypeScript",
+        "description": "Official C# support for Visual Studio Code (powered by OmniSharp)"
+    },
+    {
+        "name": "optimizely-javascript-sdk",
+        "stargazer_count": 10,
+        "language": null,
+        "description": "JavaScript SDK for Optimizely X Full Stack: A/B testing and feature management for product development teams"
+    },
+    {
+        "name": "codeql-ctf-go-return",
+        "stargazer_count": 10,
+        "language": "Go",
+        "description": "Extension project for the Go and Don't Return CodeQL CTF"
+    },
+    {
+        "name": "java-codespaces",
+        "stargazer_count": 10,
+        "language": "Java",
+        "description": "Template for new Codespaces-enabled repos for Java projects"
+    },
+    {
+        "name": "gitscm-old",
+        "stargazer_count": 9,
+        "language": "Ruby",
+        "description": "Git homepage that rocks - from the git.or.cz awesomeness"
+    },
+    {
+        "name": "puppetlabs-puppetdb",
+        "stargazer_count": 9,
+        "language": "Clojure",
+        "description": "Centralized Puppet Storage"
+    },
+    {
+        "name": "marginalia",
+        "stargazer_count": 9,
+        "language": "Ruby",
+        "description": "Attach comments to ActiveRecord's SQL queries"
+    },
+    {
+        "name": "fake_braintree",
+        "stargazer_count": 9,
+        "language": "Ruby",
+        "description": "A Braintree so fake that you can avoid hitting Braintree servers in tests."
+    },
+    {
+        "name": "posix-spawn",
+        "stargazer_count": 9,
+        "language": "Ruby",
+        "description": "Fast Process::spawn for Rubys >= 1.8.7 based on the posix_spawn() system interfaces"
+    },
+    {
+        "name": "puppet-vault",
+        "stargazer_count": 9,
+        "language": "Ruby",
+        "description": ":floppy_disk: :package: puppet-module to install Hashicorp's Vault."
+    },
+    {
+        "name": "puppet-consul_template",
+        "stargazer_count": 9,
+        "language": "Puppet",
+        "description": "A Puppet module to manage the config and jobs of Consul Template from Hashicorp"
+    },
+    {
+        "name": "go-mysql",
+        "stargazer_count": 9,
+        "language": "Go",
+        "description": "a powerful mysql toolset with Go"
+    },
+    {
+        "name": "puppet-aptly",
+        "stargazer_count": 9,
+        "language": "Ruby",
+        "description": "Puppet module for aptly"
+    },
+    {
+        "name": "etcd-operator",
+        "stargazer_count": 9,
+        "language": "Go",
+        "description": "etcd operator creates/configures/manages etcd clusters atop Kubernetes"
+    },
+    {
+        "name": "template",
+        "stargazer_count": 9,
+        "language": "HTML",
+        "description": "Minimal polyfill for <template>"
+    },
+    {
+        "name": "lightstep-tracer-ruby",
+        "stargazer_count": 9,
+        "language": "Ruby",
+        "description": "The LightStep distributed tracing library for Ruby"
+    },
+    {
+        "name": "reactnd-project-readable-starter",
+        "stargazer_count": 9,
+        "language": "JavaScript",
+        "description": "Starting server code for ReactND Readable Project"
+    },
+    {
+        "name": "captain-hook",
+        "stargazer_count": 9,
+        "language": "JavaScript",
+        "description": "slack bot that provides subscription service for npm webhooks"
+    },
+    {
+        "name": "blakejs",
+        "stargazer_count": 9,
+        "language": "JavaScript",
+        "description": "Pure Javascript implementation of the BLAKE2b and BLAKE2s hash functions"
+    },
+    {
+        "name": "ruby-gpgme",
+        "stargazer_count": 9,
+        "language": "Ruby",
+        "description": "a ruby interface to GnuPG Made Easy (GPGME)."
+    },
+    {
+        "name": "omnisharp-roslyn",
+        "stargazer_count": 9,
+        "language": "C#",
+        "description": "OmniSharp server (HTTP, STDIO) based on Roslyn workspaces"
+    },
+    {
+        "name": "vscode-kubernetes-tools",
+        "stargazer_count": 9,
+        "language": "TypeScript",
+        "description": "Kubernetes extension for Visual Studio Code"
+    },
+    {
+        "name": "packwerk",
+        "stargazer_count": 9,
+        "language": "Ruby",
+        "description": "Good things come in small packages."
+    },
+    {
+        "name": "generate-dependabot-glob-action",
+        "stargazer_count": 9,
+        "language": "JavaScript",
+        "description": "Generates a `dependabot.yml` and PRs it against your repo if it needs updating to include a new directory or package-ecosystem, with globs/wildcards"
+    },
+    {
+        "name": "rbenv-autohash",
+        "stargazer_count": 8,
+        "language": "Ruby",
+        "description": "Rubygems plugin to automatically run `rbenv rehash`."
+    },
+    {
+        "name": "faceup",
+        "stargazer_count": 8,
+        "language": "JavaScript",
+        "description": "More than just mustaches."
+    },
+    {
+        "name": "fog",
+        "stargazer_count": 8,
+        "language": "Ruby",
+        "description": "The Ruby cloud services library."
+    },
+    {
+        "name": "garethr-docker",
+        "stargazer_count": 8,
+        "language": "Ruby",
+        "description": "Puppet module for managing docker"
+    },
+    {
+        "name": "STUtils",
+        "stargazer_count": 8,
+        "language": "Objective-C",
+        "description": null
+    },
+    {
+        "name": "guard",
+        "stargazer_count": 8,
+        "language": "Ruby",
+        "description": "Guard is a command line tool to easily handle events on file system modifications."
+    },
+    {
+        "name": "zero_push",
+        "stargazer_count": 8,
+        "language": "Ruby",
+        "description": "Ruby wrapper for the ZeroPush API"
+    },
+    {
+        "name": "puppet-ca_cert",
+        "stargazer_count": 8,
+        "language": "Ruby",
+        "description": "A puppet module for managing (non-system) CA certificates."
+    },
+    {
+        "name": "kestrel",
+        "stargazer_count": 8,
+        "language": "Scala",
+        "description": "simple, distributed message queue system (inactive)"
+    },
+    {
+        "name": "docker-awscli",
+        "stargazer_count": 8,
+        "language": "Shell",
+        "description": "Another aws cli for hacking"
+    },
+    {
+        "name": "wmail-user-scripts",
+        "stargazer_count": 8,
+        "language": "CSS",
+        "description": null
+    },
+    {
+        "name": "collectd-elasticsearch",
+        "stargazer_count": 8,
+        "language": "Python",
+        "description": "CollectD ElasticSearch plugin"
+    },
+    {
+        "name": "gpgme",
+        "stargazer_count": 8,
+        "language": "C",
+        "description": "GnuPG Made Easy"
+    },
+    {
+        "name": "csharp-test-adapter",
+        "stargazer_count": 8,
+        "language": "TypeScript",
+        "description": "C# Test Adapter Extension for VS Code"
+    },
+    {
+        "name": "chatops-templates",
+        "stargazer_count": 8,
+        "language": "Handlebars",
+        "description": null
+    },
+    {
+        "name": "bellevue-murals",
+        "stargazer_count": 8,
+        "language": "JavaScript",
+        "description": null
+    },
+    {
+        "name": "empty-repos",
+        "stargazer_count": 8,
+        "language": "JavaScript",
+        "description": "A GitHub Actions workflow to find empty repos"
+    },
+    {
+        "name": "user-engagement-metrics",
+        "stargazer_count": 8,
+        "language": "Python",
+        "description": "A tool for collecting and analyzing GitHub user engagement data."
+    },
+    {
+        "name": "yard-sinatra",
+        "stargazer_count": 7,
+        "language": "Ruby",
+        "description": "Display sinatra routes in yard documentation."
+    },
+    {
+        "name": "rack-ssl-enforcer",
+        "stargazer_count": 7,
+        "language": "Ruby",
+        "description": "A simple Rack middleware to enforce ssl connections"
+    },
+    {
+        "name": "railsless-deploy",
+        "stargazer_count": 7,
+        "language": null,
+        "description": "Obsolete, see http://www.capistranorb.com/ for new Capistrano with no Railsisms!"
+    },
+    {
+        "name": "puppetlabs-apt",
+        "stargazer_count": 7,
+        "language": "Ruby",
+        "description": "Puppet module to help manage Apt"
+    },
+    {
+        "name": "force-pr",
+        "stargazer_count": 7,
+        "language": "Ruby",
+        "description": "Basic webserver that responds to webhooks with success"
+    },
+    {
+        "name": "looker-slackbot",
+        "stargazer_count": 7,
+        "language": "CoffeeScript",
+        "description": "A super cool Slack bot for Looker!"
+    },
+    {
+        "name": "node-slack-sdk",
+        "stargazer_count": 7,
+        "language": "CoffeeScript",
+        "description": "Slack Developer Kit for Node.js"
+    },
+    {
+        "name": "promise.rb",
+        "stargazer_count": 7,
+        "language": "Ruby",
+        "description": "Promises/A+ for Ruby"
+    },
+    {
+        "name": "stale",
+        "stargazer_count": 7,
+        "language": null,
+        "description": "Marks issues and pull requests that have not had recent interaction"
+    },
+    {
+        "name": "osv-schema",
+        "stargazer_count": 7,
+        "language": "Python",
+        "description": "Open Source Vulnerability schema. "
+    },
+    {
+        "name": "memcached",
+        "stargazer_count": 7,
+        "language": "C",
+        "description": "A Ruby interface to the libmemcached C client"
+    },
+    {
+        "name": "github-event-mirror-azure-function",
+        "stargazer_count": 7,
+        "language": "TypeScript",
+        "description": "Mirror GitHub events back to their originating repo to trigger Actions workflows, using this Azure Function"
+    },
+    {
+        "name": "terraform-github-runner-vnet",
+        "stargazer_count": 7,
+        "language": "HCL",
+        "description": "Terraform modules that configure private networking for GitHub-hosted Action Runners."
+    },
+    {
+        "name": "gh-runtime-cli",
+        "stargazer_count": 7,
+        "language": "Go",
+        "description": "GH CLI extension used to deploy sparks to the GitHub runtime "
+    },
+    {
+        "name": "puppet-sysfs",
+        "stargazer_count": 6,
+        "language": "Puppet",
+        "description": "Module to manage sysfs settings"
+    },
+    {
+        "name": "sparkles-legacy",
+        "stargazer_count": 6,
+        "language": "Go",
+        "description": "A Go backend for giving each other :sparkles: in Slack"
+    },
+    {
+        "name": "sqoop",
+        "stargazer_count": 6,
+        "language": "Java",
+        "description": "Mirror of Apache Sqoop"
+    },
+    {
+        "name": "fog-aws",
+        "stargazer_count": 6,
+        "language": "Ruby",
+        "description": "Module for the 'fog' gem to support Amazon Web Services http://aws.amazon.com/"
+    },
+    {
+        "name": "plax",
+        "stargazer_count": 6,
+        "language": "JavaScript",
+        "description": "JQuery powered parallaxing"
+    },
+    {
+        "name": "graphql-batch",
+        "stargazer_count": 6,
+        "language": "Ruby",
+        "description": "A query batching executor for the graphql gem"
+    },
+    {
+        "name": "ruby-test-tracer",
+        "stargazer_count": 6,
+        "language": null,
+        "description": "OpenTracing compatible Tracer implementation to be used in tests in Ruby  "
+    },
+    {
+        "name": "heroku-buildpack-lightstep-satellite",
+        "stargazer_count": 6,
+        "language": "Shell",
+        "description": "Heroku buildpack to run the lightstep collector in each dyno"
+    },
+    {
+        "name": "hyderabad-murals",
+        "stargazer_count": 6,
+        "language": null,
+        "description": "Hyderabad Generative Art Murals"
+    },
+    {
+        "name": "gh-mysql-conf-diff",
+        "stargazer_count": 6,
+        "language": "Go",
+        "description": "Diff MySQL config options with running server variables"
+    },
+    {
+        "name": "cosmo",
+        "stargazer_count": 6,
+        "language": "TypeScript",
+        "description": "The open-source solution to building, maintaining, and collaborating on GraphQL Federation at Scale. The alternative to Apollo Studio and GraphOS."
+    },
+    {
+        "name": "copilot-sdk-workshop",
+        "stargazer_count": 6,
+        "language": "Python",
+        "description": "GitHub Copilot SDK workshop"
+    },
+    {
+        "name": "practice",
+        "stargazer_count": 5,
+        "language": null,
+        "description": null
+    },
+    {
+        "name": "kafka-sink-azure-kusto",
+        "stargazer_count": 5,
+        "language": null,
+        "description": "Kafka sink for Kusto"
+    },
+    {
+        "name": "DPG-guidance",
+        "stargazer_count": 5,
+        "language": null,
+        "description": "Repo for guidance on how to use GitHub for digital public goods (DPGs)"
+    },
+    {
+        "name": "policy-controller",
+        "stargazer_count": 5,
+        "language": "Go",
+        "description": "Temporary GitHub managed Sigstore Policy Controller fork"
+    },
+    {
+        "name": "mdbook-asciinema",
+        "stargazer_count": 5,
+        "language": "CSS",
+        "description": "An mdbook preprocessor for embedding asciinema terminal recordings in your book"
+    },
+    {
+        "name": "gh-gl2gh",
+        "stargazer_count": 5,
+        "language": null,
+        "description": "Migration CLI for GitLab to GitHub migrations"
+    },
+    {
+        "name": "gh-aw-harness",
+        "stargazer_count": 3,
+        "language": "Makefile",
+        "description": "Agent harness for Agentic Workflows"
+    },
+    {
+        "name": "computer-use-plugin",
+        "stargazer_count": 2,
+        "language": null,
+        "description": null
+    },
+    {
+        "name": "ai-scan-action",
+        "stargazer_count": 2,
+        "language": "Shell",
+        "description": "Public distribution repository for GitHub AI scanning through Actions"
+    },
+    {
+        "name": "external-custom-properties-sample",
+        "stargazer_count": 2,
+        "language": "JavaScript",
+        "description": "Example GitHub App server that writes external custom properties to repositories"
+    },
+    {
+        "name": "wry",
+        "stargazer_count": 1,
+        "language": null,
+        "description": "Cross-platform WebView library in Rust for Tauri."
+    },
+    {
+        "name": "simpleforce",
+        "stargazer_count": 0,
+        "language": "Go",
+        "description": "Simple Golang client for Salesforce"
+    },
+    {
+        "name": "gh-elm",
+        "stargazer_count": 0,
+        "language": "Go",
+        "description": "Enterprise Live Migrations CLI for GHES to GitHub with Data Residency migrations"
+    },
+    {
+        "name": "tao",
+        "stargazer_count": 0,
+        "language": null,
+        "description": "The TAO of cross-platform windowing. A library in Rust built for Tauri."
+    },
+    {
+        "name": "tauri",
+        "stargazer_count": 0,
+        "language": null,
+        "description": "Build smaller, faster, and more secure desktop and mobile applications with a web frontend."
+    }
+]
