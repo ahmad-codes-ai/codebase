@@ -86,21 +86,3 @@ def get_sorted_repo(count=10):
         data = json.load(f)
 
     return data[0:count]
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
-
-
-
-
