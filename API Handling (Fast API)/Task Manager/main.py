@@ -5,7 +5,7 @@ tasks = {}
 
 
 def add_task(name,des,status=False):
-    task_id = len(tasks)+1
+    task_id = max(tasks.keys()) + 1 if tasks else 1
 
     tasks[task_id] = {'name':name,'description':des,'status':status}
 

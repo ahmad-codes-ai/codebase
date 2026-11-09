@@ -42,6 +42,8 @@ def view_all_tasks():
 
 
 
+# Testing
+
 t1 = add_task('Task 1 ',"This is task 1 ")
 t2 = add_task('Tasks 2','This is task 2')
 
