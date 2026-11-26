@@ -1,9 +1,21 @@
 import httpx
 
-response = httpx.get('http://127.0.0.1:8000/sort',params={'sort_by':'height','order':'desc'})
+
+data = {
+    'name':'Ahmad',
+    'age':16,
+    'weight': 56.3,
+    'height': 1.68,
+    'id': 'P10101',
+    'city': 'lahore',
+    'gender': 'Male',
+    'married': False,
+    'contacts': {'phone':'039496','phone2':'08213070347'},
+    'allergies': ['asthama','dust']
+}
 
 
-if response.status_code == 200:
-    print(response.json())
-else:
-    print(response.status_code)
+response = httpx.post('http://127.0.0.1:8000/create',json=data)
+
+
+print(response.status_code)
