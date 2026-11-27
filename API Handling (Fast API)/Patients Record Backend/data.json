@@ -51,10 +51,10 @@
     },
     "P10101": {
         "name": "Ahmad",
-        "age": 16,
+        "age": 18,
         "gender": "Male",
-        "city": "lahore",
-        "weight": 56.3,
+        "city": "Karachi",
+        "weight": 67.0,
         "height": 1.68,
         "allergies": [
             "asthama",
@@ -65,6 +65,6 @@
             "phone2": "08213070347"
         },
         "married": false,
-        "bmi": 19.95
+        "bmi": 23.74
     }
 }

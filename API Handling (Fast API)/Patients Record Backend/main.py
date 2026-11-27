@@ -27,6 +27,14 @@ class Patient(BaseModel):
         return bmi
 
 
+class PatientUpdate(BaseModel):
+    name: Annotated[Optional[str], Field(default=None)]
+    city: Annotated[Optional[str], Field(default=None)]
+    age: Annotated[Optional[int], Field(default=None, gt=0)]
+    gender: Annotated[Optional[str], Field(default=None)]
+    height: Annotated[Optional[float], Field(default=None, gt=0)]
+    weight: Annotated[Optional[float], Field(default=None, gt=0)]
+
 
 def load_patients():
     with open(r'C:\Users\Lenovo\Desktop\Projects\codebase\API Handling (Fast API)\Patients Record Backend\data.json','r') as f:
@@ -96,7 +104,40 @@ def create_patient(patient : Patient):
     with open(r'C:\Users\Lenovo\Desktop\Projects\codebase\API Handling (Fast API)\Patients Record Backend\data.json','w') as f:
         json.dump(data,f,indent=4)
         return JSONResponse(status_code=201,content={'message':'Patient added successfully'})
+
+
+@app.put('/edit/{patient_id}')
+def update_patient(new_data : PatientUpdate, patient_id : str = Path(...,description="The id of patient")):
+    patients = load_patients()
+
+    if patient_id not in patients:
+        raise HTTPException(status_code=404,detail="Patient Not Found")
+
+    new_data = new_data.model_dump(exclude_unset=True)
+    patient = patients[patient_id]
+
+
+    updated_fields = []
+
+    for k,v in new_data.items():
+        patient[k] = v
+        updated_fields.append(k)
+
+    # To get new computed filed with new data
     
+    patient['id'] = patient_id
+    patient_pydantic_obj = Patient(**patient)
+
+    patient = patient_pydantic_obj.model_dump(exclude='id')
+
+
+    patients[patient_id] = patient
+
+
+    with open(r'C:\Users\Lenovo\Desktop\Projects\codebase\API Handling (Fast API)\Patients Record Backend\data.json','w') as f:
+        json.dump(patients,f,indent=4)
+        return JSONResponse(status_code=200,content={'updated_fields':updated_fields})
+
 
 # app is a FastAPI class object 
 # / is the base endpoint and then we have two more endpoints funny and play

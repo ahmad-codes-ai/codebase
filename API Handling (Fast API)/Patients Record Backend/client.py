@@ -1,21 +1,15 @@
 import httpx
 
 
-data = {
-    'name':'Ahmad',
-    'age':16,
-    'weight': 56.3,
-    'height': 1.68,
-    'id': 'P10101',
-    'city': 'lahore',
-    'gender': 'Male',
-    'married': False,
-    'contacts': {'phone':'039496','phone2':'08213070347'},
-    'allergies': ['asthama','dust']
+
+new_data = {
+    'age':18,
+    'weight':67,
+    'city':'Karachi'
 }
 
-
-response = httpx.post('http://127.0.0.1:8000/create',json=data)
+response = httpx.put('http://127.0.0.1:8000/edit/P10101',json=new_data)
 
 
 print(response.status_code)
+print(response.json())
