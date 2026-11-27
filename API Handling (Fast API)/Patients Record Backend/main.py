@@ -139,6 +139,21 @@ def update_patient(new_data : PatientUpdate, patient_id : str = Path(...,descrip
         return JSONResponse(status_code=200,content={'updated_fields':updated_fields})
 
 
+@app.delete('/delete/{patient_id}')
+def delete_patient(patient_id : str):
+    patients = load_patients()
+
+
+    if patient_id not in patients:
+        raise HTTPException(status_code=404,detail="Patient not found")
+
+    removed = patients.pop(patient_id)
+
+    with open(r'C:\Users\Lenovo\Desktop\Projects\codebase\API Handling (Fast API)\Patients Record Backend\data.json','w') as f:
+        json.dump(patients,f,indent=4)
+        return JSONResponse(status_code=200,content={'deleted_patient':removed})
+
+
 # app is a FastAPI class object 
 # / is the base endpoint and then we have two more endpoints funny and play
 # uvicorn is the web server which is reciving request and then running code 

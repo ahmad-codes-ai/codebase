@@ -48,23 +48,5 @@
         "weight": 75,
         "bmi": 31.22,
         "verdict": "Obese"
-    },
-    "P10101": {
-        "name": "Ahmad",
-        "age": 18,
-        "gender": "Male",
-        "city": "Karachi",
-        "weight": 67.0,
-        "height": 1.68,
-        "allergies": [
-            "asthama",
-            "dust"
-        ],
-        "contacts": {
-            "phone": "039496",
-            "phone2": "08213070347"
-        },
-        "married": false,
-        "bmi": 23.74
     }
 }
